@@ -1,0 +1,7 @@
+{
+  "title": "Grammar Note",
+  "description": "Building blocs for English",
+  "icon": "Building",
+  "root": true,
+  "pages": ["index", "tenses"]
+}
