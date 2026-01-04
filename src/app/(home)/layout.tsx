@@ -9,13 +9,13 @@ export default function Layout({ children }: LayoutProps<"/">) {
       links={[
         {
           icon: <NotepadTextIcon />,
-          text: "정리노트",
+          text: "Study Note",
           url: "/docs",
           active: "nested-url",
         },
         {
           icon: <HeadsetIcon />,
-          text: "블로그",
+          text: "Blog",
           url: "/blog",
           active: "nested-url",
         },

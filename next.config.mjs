@@ -5,6 +5,7 @@ const withMDX = createMDX();
 /** @type {import('next').NextConfig} */
 const config = {
   reactStrictMode: true,
+  serverExternalPackages: ["@takumi-rs/image-response"],
   images: {
     minimumCacheTTL: 60 * 60 * 5,
     unoptimized: false,

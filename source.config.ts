@@ -12,7 +12,9 @@ import { z } from "zod";
 export const docs = defineDocs({
   dir: "content/docs",
   docs: {
-    schema: frontmatterSchema,
+    schema: frontmatterSchema.extend({
+      teaser: z.string().optional(),
+    }),
     postprocess: {
       includeProcessedMarkdown: true,
     },

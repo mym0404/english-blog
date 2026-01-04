@@ -24,10 +24,10 @@ const HomePage = () => {
       </div>
 
       <div className={"text-center z-10"}>
-        <h1 className={"text-3xl font-bold mb-4  drop-shadow-lg"}>
+        <h1 className={"text-white text-3xl font-bold mb-4  drop-shadow-lg"}>
           나의 영어여행
         </h1>
-        <p className={"text-fd-foreground/70 text-lg drop-shadow-md"}>
+        <p className={"text-white/70 text-lg drop-shadow-md"}>
           나만의 작은 영어 학습 블로그
         </p>
       </div>

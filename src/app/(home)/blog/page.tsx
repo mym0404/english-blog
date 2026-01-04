@@ -10,9 +10,9 @@ export default async function BlogIndex() {
 
   return (
     <main className={"mx-auto max-w-5xl px-6 py-10"}>
-      <h1 className={"text-4xl font-bold mb-2"}>블로그</h1>
+      <h1 className={"text-4xl font-bold mb-2"}>Blog</h1>
       <p className={"text-fd-muted-foreground mb-10"}>
-        영작을 연습하고 영어 공부와 관련된 저의 발전을 공유합니다
+        A space for practicing English writing and sharing my advancement
       </p>
 
       <div className={"grid gap-6 md:grid-cols-2"}>

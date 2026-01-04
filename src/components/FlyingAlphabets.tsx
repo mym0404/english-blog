@@ -2,6 +2,7 @@
 
 import { Center, OrbitControls, Text } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
+import { Bloom, EffectComposer } from "@react-three/postprocessing";
 import { useMemo, useRef } from "react";
 import type * as THREE from "three";
 import { DoubleSide } from "three";
@@ -58,6 +59,8 @@ const Alphabet = ({
             transparent
             opacity={0}
             side={DoubleSide}
+            emissive={color}
+            emissiveIntensity={1.5}
           />
         </Text>
       </Center>
@@ -169,13 +172,22 @@ const Scene = () => {
         minPolarAngle={Math.PI / 3}
         maxPolarAngle={Math.PI / 1.5}
       />
+
+      <EffectComposer>
+        <Bloom
+          intensity={1.1}
+          luminanceThreshold={0.2}
+          luminanceSmoothing={0.9}
+          radius={0.25}
+        />
+      </EffectComposer>
     </>
   );
 };
 
 export const FlyingAlphabets = () => {
   return (
-    <div className={"absolute inset-0 -z-10"}>
+    <div className={"absolute inset-0 -z-10 bg-black"}>
       <Canvas camera={{ position: [0, 0, 15], fov: 60 }} dpr={[1, 2]} shadows>
         <Scene />
       </Canvas>
