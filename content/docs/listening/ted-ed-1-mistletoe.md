@@ -1,6 +1,9 @@
 ---
-title: "[Listening] Why do we kiss under mistletoe? - Carlos Reif"
-tag: ["English", "Study", "Listening"]
+title: Ted Ed - Why do we kiss under mistletoe? - Carlos Reif
+tag:
+  - English
+  - Study
+  - Listening
 category: English
 date: 2026-01-03T05:37:41.402+0900
 teaser: https://i.ytimg.com/vi/QtJqBiF6EF0/hqdefault.jpg
