@@ -10,7 +10,7 @@ type TerminalProps = {
 };
 
 const darkTheme = {
-  background: "rgba(45, 42, 62, 0.85)",
+  background: "rgba(45, 42, 62, 0.2)",
   foreground: "#e8e3f3",
   cursor: "#f5b8d0",
   black: "#3d3a50",
@@ -24,7 +24,6 @@ const darkTheme = {
 };
 
 const lightTheme = {
-  background: "rgba(255, 250, 245, 0.85)",
   foreground: "#3d3a50",
   cursor: "#e879a0",
   black: "#2d2a3e",
@@ -63,6 +62,7 @@ export const TerminalDisplay = ({ lines = [] }: TerminalProps) => {
       rows: 12,
       cols: 80,
       disableStdin: true,
+      allowTransparency: true,
     });
 
     const fitAddon = new FitAddon();
@@ -111,9 +111,11 @@ export const TerminalDisplay = ({ lines = [] }: TerminalProps) => {
         <div className={"w-3 h-3 rounded-full bg-pink-300"} />
         <div className={"w-3 h-3 rounded-full bg-yellow-200"} />
         <div className={"w-3 h-3 rounded-full bg-green-200"} />
-        <span className={`ml-2 text-sm ${titleClass}`}>terminal</span>
+        <span className={`ml-2 text-sm ${titleClass}`}>
+          how can I be good at English
+        </span>
       </div>
-      <div ref={containerRef} className={"p-2"} />
+      <div ref={containerRef} className={"p-2 min-h-[100px]"} />
     </div>
   );
 };
