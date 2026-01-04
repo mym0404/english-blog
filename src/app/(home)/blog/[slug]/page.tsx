@@ -3,12 +3,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { blog } from "@/lib/source";
 import { getMDXComponents } from "@/mdx-components";
-import {
-  DocsBody,
-  DocsDescription,
-  DocsPage,
-  DocsTitle,
-} from "fumadocs-ui/layouts/docs/page";
 
 export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
   const params = await props.params;
@@ -18,7 +12,7 @@ export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
   const MDX = page.data.body;
 
   return (
-    <DocsPage toc={page.data.toc}>
+    <main className={"mx-auto w-full max-w-3xl px-6 py-10"}>
       <Link
         href={"/blog"}
         className={
@@ -28,12 +22,16 @@ export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
         ← 블로그 목록으로
       </Link>
 
-      <DocsTitle>{page.data.title}</DocsTitle>
-      <DocsDescription>{page.data.description}</DocsDescription>
+      <h1 className={"text-4xl font-bold mb-4"}>{page.data.title}</h1>
+      {page.data.description && (
+        <p className={"text-lg text-fd-muted-foreground mb-4"}>
+          {page.data.description}
+        </p>
+      )}
 
       <div
         className={
-          "flex items-center gap-3 text-sm text-fd-muted-foreground mb-6 mt-2"
+          "flex items-center gap-3 text-sm text-fd-muted-foreground mb-6"
         }
       >
         {page.data.date && (
@@ -54,7 +52,7 @@ export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
       </div>
 
       {page.data.tags && page.data.tags.length > 0 && (
-        <div className={"flex flex-wrap gap-2 mb-6"}>
+        <div className={"flex flex-wrap gap-2 mb-8"}>
           {page.data.tags.map((tag) => (
             <span
               key={tag}
@@ -68,10 +66,10 @@ export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
         </div>
       )}
 
-      <DocsBody>
+      <article className={"prose prose-fd max-w-none"}>
         <MDX components={getMDXComponents({})} />
-      </DocsBody>
-    </DocsPage>
+      </article>
+    </main>
   );
 }
 
