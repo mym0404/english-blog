@@ -1,7 +1,7 @@
 {
-  "title": "Grammar Note",
-  "description": "Building blocs for English",
-  "icon": "Building",
+  "title": "Grammar",
+  "description": "Building blocks for English",
+  "icon": "NotepadText",
   "root": true,
-  "pages": ["index", "tenses"]
+  "pages": ["index"]
 }

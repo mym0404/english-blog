@@ -6,13 +6,13 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "sync:up": "zx scripts/sync-up.ts",
     "types:check": "fumadocs-mdx && next typegen && tsc --noEmit",
     "postinstall": "fumadocs-mdx",
     "lint": "biome check",
     "format": "biome format --write",
     "t": "pnpm run types:check && pnpm run lint",
-    "sync": "bun scripts/sync.ts"
+    "sync": "bun scripts/sync.ts",
+    "sync:up": "bun scripts/sync-up.ts"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
