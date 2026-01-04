@@ -91,6 +91,8 @@ export async function generateMetadata(
     description: page.data.description,
     openGraph: {
       images: getBlogPageImage(page).url,
+      title: page.data.title,
+      description: page.data.description,
     },
   };
 }

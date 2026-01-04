@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   description: "나만의 작은 영어 학습 블로그",
   openGraph: {
     images: "https://english.mjstudio.net/images/ogimage.png",
+    title: "나의 영어여행",
+    description: "나만의 작은 영어 학습 블로그",
   },
 };
 
