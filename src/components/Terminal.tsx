@@ -94,7 +94,7 @@ export const TerminalDisplay = ({ lines = [] }: TerminalProps) => {
       terminal.dispose();
       terminalRef.current = null;
     };
-  }, [lines]);
+  }, [lines, isDark]);
 
   const gradientClass = isDark
     ? "bg-gradient-to-br from-purple-900/60 via-indigo-900/50 to-pink-900/40"

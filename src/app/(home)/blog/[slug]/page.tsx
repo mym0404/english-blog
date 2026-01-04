@@ -1,8 +1,8 @@
-import { blog } from "@/lib/source";
-import { notFound } from "next/navigation";
-import { getMDXComponents } from "@/mdx-components";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
+import { blog } from "@/lib/source";
+import { getMDXComponents } from "@/mdx-components";
 
 export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
   const params = await props.params;
@@ -32,7 +32,11 @@ export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
             </p>
           )}
 
-          <div className={"flex items-center gap-3 text-sm text-fd-muted-foreground"}>
+          <div
+            className={
+              "flex items-center gap-3 text-sm text-fd-muted-foreground"
+            }
+          >
             {page.data.date && (
               <time dateTime={page.data.date.toISOString()}>
                 {page.data.date.toLocaleDateString("ko-KR", {
@@ -92,7 +96,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata(
-  props: PageProps<"/blog/[slug]">
+  props: PageProps<"/blog/[slug]">,
 ): Promise<Metadata> {
   const params = await props.params;
   const page = blog.getPage([params.slug]);
