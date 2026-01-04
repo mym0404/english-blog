@@ -11,10 +11,13 @@ export const metadata: Metadata = {
   title: "나의 영어여행",
   description: "나만의 작은 영어 학습 블로그",
   openGraph: {
-    images: "https://english.mjstudio.net/images/ogimage.png",
+    images: "/images/ogimage.png",
     title: "나의 영어여행",
     description: "나만의 작은 영어 학습 블로그",
   },
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://english.mjstudio.net",
+  ),
 };
 
 export default function Layout({ children }: LayoutProps<"/">) {
