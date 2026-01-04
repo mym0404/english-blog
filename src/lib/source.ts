@@ -16,14 +16,23 @@ export const blog = loader({
   plugins: [lucideIconsPlugin()],
 });
 
-export function getPageImage(page: InferPageType<typeof source>) {
+export const getPageImage = (page: InferPageType<typeof source>) => {
   const segments = [...page.slugs, "image.webp"];
 
   return {
     segments,
     url: `/og/docs/${segments.join("/")}`,
   };
-}
+};
+
+export const getBlogPageImage = (page: InferPageType<typeof blog>) => {
+  const segments = [...page.slugs, "image.webp"];
+
+  return {
+    segments,
+    url: `/og/blog/${segments.join("/")}`,
+  };
+};
 
 export async function getLLMText(page: InferPageType<typeof source>) {
   const processed = await page.data.getText("processed");

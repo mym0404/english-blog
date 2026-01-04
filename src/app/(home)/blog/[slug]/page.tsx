@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { blog } from "@/lib/source";
+import { blog, getBlogPageImage } from "@/lib/source";
 import { getMDXComponents } from "@/mdx-components";
 
 export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
@@ -89,5 +89,8 @@ export async function generateMetadata(
   return {
     title: page.data.title,
     description: page.data.description,
+    openGraph: {
+      images: getBlogPageImage(page).url,
+    },
   };
 }
