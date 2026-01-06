@@ -8,6 +8,8 @@ export default async function BlogIndex() {
     return dateB - dateA;
   });
 
+  console.log(JSON.stringify(posts.map(d => d.data.date),null,2));
+
   return (
     <main className={"mx-auto max-w-5xl px-6 py-10"}>
       <h1 className={"text-4xl font-bold mb-2"}>Blog</h1>

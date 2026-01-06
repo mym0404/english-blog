@@ -1,7 +1,7 @@
 ---
 title: I decided what I'd study next
 description: What's my next book to read?
-date: 2026-01-06T19:52:52+09:00
+date: 2026-01-06T19:52:52
 tags:
   - Daily
 ---
