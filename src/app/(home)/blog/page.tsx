@@ -23,7 +23,7 @@ export default async function BlogIndex() {
             key={post.url}
             href={post.url}
             className={
-              "block rounded-xl border border-fd-border p-6 transition-all hover:border-fd-primary hover:shadow-lg"
+              "block rounded-xl border border-fd-border p-6 transition-all hover:border-fd-primary/30 hover:dark:drop-shadow hover:dark:drop-shadow-white/20 hover:shadow-lg"
             }
           >
             <div
@@ -33,7 +33,7 @@ export default async function BlogIndex() {
             >
               {post.data.date && (
                 <time dateTime={post.data.date.toISOString()}>
-                  {post.data.date.toLocaleDateString("ko-KR", {
+                  {post.data.date.toLocaleDateString("en-US", {
                     year: "numeric",
                     month: "long",
                     day: "numeric",

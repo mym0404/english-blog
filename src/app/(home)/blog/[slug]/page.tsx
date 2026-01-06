@@ -19,7 +19,7 @@ export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
           "inline-flex items-center gap-2 text-sm text-fd-muted-foreground hover:text-fd-foreground mb-4"
         }
       >
-        ← 블로그 목록으로
+        ← Back to posts
       </Link>
 
       <h1 className={"text-4xl font-bold mb-4"}>{page.data.title}</h1>
@@ -36,7 +36,7 @@ export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
       >
         {page.data.date && (
           <time dateTime={page.data.date.toISOString()}>
-            {page.data.date.toLocaleDateString("ko-KR", {
+            {page.data.date.toLocaleDateString("en-US", {
               year: "numeric",
               month: "long",
               day: "numeric",
