@@ -24,3 +24,15 @@
   --grammar-color: hsl(250, 100%, 80%);
   --listening-color: #fff383;
 }
+
+@layer utilities {
+    .article img {
+        max-width: 100%;
+    }
+
+    @media (min-width: theme(--breakpoint-sm)) {
+      .article img {
+          max-width: 300px;
+      }
+    }
+}

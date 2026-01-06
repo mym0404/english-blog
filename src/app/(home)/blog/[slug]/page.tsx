@@ -66,7 +66,7 @@ export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
         </div>
       )}
 
-      <article className={"prose prose-fd max-w-none"}>
+      <article className={"prose prose-fd max-w-none article"}>
         <MDX components={getMDXComponents({})} />
       </article>
     </main>
