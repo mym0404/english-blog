@@ -10,7 +10,7 @@ export default async function BlogIndex() {
       const dateB = b.data.date ? b.data.date.getTime() : 0;
       return dateB - dateA;
     })
-    .filter((b) => path.basename(b.path).charAt(0) === "-");
+    .filter((b) => path.basename(b.path).charAt(0) !== "-");
 
   return (
     <main className={"mx-auto max-w-5xl px-6 py-10"}>
@@ -75,7 +75,7 @@ export default async function BlogIndex() {
 
       {posts.length === 0 && (
         <div className={"text-center py-20 text-fd-muted-foreground"}>
-          아직 작성된 글이 없습니다.
+          There is no post yet.
         </div>
       )}
     </main>
