@@ -1,3 +1,4 @@
+import path from "node:path";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -7,7 +8,7 @@ import { getMDXComponents } from "@/mdx-components";
 export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
   const params = await props.params;
   const page = blog.getPage([params.slug]);
-  if (!page) notFound();
+  if (!page || path.basename(page.path).charAt(0) === "-") notFound();
 
   const MDX = page.data.body;
 
