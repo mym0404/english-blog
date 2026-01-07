@@ -1,14 +1,16 @@
+import path from "node:path";
 import Link from "next/link";
 import { blog } from "@/lib/source";
 
 export default async function BlogIndex() {
-  const posts = blog.getPages().sort((a, b) => {
-    const dateA = a.data.date ? a.data.date.getTime() : 0;
-    const dateB = b.data.date ? b.data.date.getTime() : 0;
-    return dateB - dateA;
-  });
-
-  console.log(JSON.stringify(posts.map(d => d.data.date),null,2));
+  const posts = blog
+    .getPages()
+    .sort((a, b) => {
+      const dateA = a.data.date ? a.data.date.getTime() : 0;
+      const dateB = b.data.date ? b.data.date.getTime() : 0;
+      return dateB - dateA;
+    })
+    .filter((b) => path.basename(b.path).charAt(0) === "-");
 
   return (
     <main className={"mx-auto max-w-5xl px-6 py-10"}>
