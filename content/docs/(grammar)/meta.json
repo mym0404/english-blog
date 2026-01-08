@@ -3,5 +3,5 @@
   "description": "Building blocks for English",
   "icon": "NotepadText",
   "root": true,
-  "pages": ["index", "---Grammar---", "subjunctive-1"]
+  "pages": ["index", "---Grammar---", "..."]
 }
