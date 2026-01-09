@@ -1,4 +1,4 @@
-import {remarkDirectiveAdmonition} from "fumadocs-core/mdx-plugins";
+import { remarkDirectiveAdmonition } from "fumadocs-core/mdx-plugins";
 import {
   defineCollections,
   defineConfig,
@@ -6,7 +6,9 @@ import {
   frontmatterSchema,
   metaSchema,
 } from "fumadocs-mdx/config";
+import rehypeKatex from "rehype-katex";
 import remarkDirective from "remark-directive";
+import remarkMath from "remark-math";
 import { z } from "zod";
 
 // You can customise Zod schemas for frontmatter and `meta.json` here
@@ -39,8 +41,7 @@ export const blog = defineCollections({
 export default defineConfig({
   mdxOptions: {
     // MDX options
-    remarkPlugins: [
-      remarkDirective, remarkDirectiveAdmonition
-    ]
+    remarkPlugins: [remarkMath, remarkDirective, remarkDirectiveAdmonition],
+    rehypePlugins: (v) => [rehypeKatex, ...v],
   },
 });
