@@ -33,18 +33,26 @@ jobs:
           printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
           chmod 600 ~/.config/rclone/rclone.conf
 
-      - name: Sync iCloud -> repo content/
+      - name: Copy iCloud -> repo content/ (assets/blog/docs only)
         env:
           REMOTE: ${{ secrets.RCLONE_REMOTE_NAME }}
         run: |
           set -euo pipefail
           REMOTE_NAME="${REMOTE:-iclouddrive}"
 
-          # iCloud의 경로: .Obsidian/english/content
-          SRC="${REMOTE_NAME}:Obsidian/english/"
+          SRC="${REMOTE_NAME}:Obsidian/english"
           DST="content"
-          bun add -D zx
-          bun scripts/sync.ts --remotePath=${SRC}
+
+          mkdir -p "$DST"
+
+          rclone sync "$SRC" "$DST" \
+            --include "assets/**" \
+            --include "blog/**" \
+            --include "docs/**" \
+            --exclude "**" \
+            --fast-list \
+            --create-empty-src-dirs \
+            -v
 
       - name: Commit & push if changed
         run: |
