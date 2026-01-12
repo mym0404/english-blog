@@ -32,7 +32,7 @@
     "rehype-katex": "^7.0.1",
     "remark-directive": "^4.0.0",
     "remark-math": "^6.0.0",
-    "remark-obsidian-mdx": "file:///Users/mj/projects/remark-obsidian",
+    "remark-obsidian-mdx": "^0.0.2",
     "three": "^0.182.0",
     "zod": "^4.3.4"
   },
