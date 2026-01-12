@@ -26,7 +26,7 @@ jobs:
 
       - name: Write rclone config
         env:
-          RCLONE_CONF: ${{ secrets.RCLONE_CONF
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
         run: |
           set -euo pipefail
           mkdir -p ~/.config/rclone
