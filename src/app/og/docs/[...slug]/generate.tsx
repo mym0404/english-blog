@@ -25,7 +25,7 @@ const fontBold = readFile("./public/fonts/Pretendard-Bold.otf").then(
     weight: 700,
   }),
 );
-const logo = readFile("./src/app/icon128.png").then(
+const logo = readFile("./public/images/icon128.png").then(
   (data) => `data:image/png;base64,${data.toString("base64")}`,
 );
 const background = readFile("./public/images/noise-background.png").then(

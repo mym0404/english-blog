@@ -59,6 +59,9 @@ importers:
       remark-math:
         specifier: ^6.0.0
         version: 6.0.0
+      remark-obsidian-mdx:
+        specifier: file:///Users/mj/projects/remark-obsidian
+        version: file:../remark-obsidian
       three:
         specifier: ^0.182.0
         version: 0.182.0
@@ -2122,6 +2125,9 @@ packages:
 
   remark-mdx@3.1.1:
     resolution: {integrity: sha512-Pjj2IYlUY3+D8x00UJsIOg5BEvfMyeI+2uLPn9VO9Wg4MEtN/VTIq2NEJQfde9PnX15KgtHyl9S0BcTnWrIuWg==}
+
+  remark-obsidian-mdx@file:../remark-obsidian:
+    resolution: {directory: ../remark-obsidian, type: directory}
 
   remark-parse@11.0.0:
     resolution: {integrity: sha512-FCxlKLNGknS5ba/1lmpYijMUzX2esxW5xQqjWxw2eHFfS2MSdaHVINFmhjo+qN1WhZhNimq0dZATN9pH0IDrpA==}
@@ -4692,6 +4698,8 @@ snapshots:
       micromark-extension-mdxjs: 3.0.0
     transitivePeerDependencies:
       - supports-color
+
+  remark-obsidian-mdx@file:../remark-obsidian: {}
 
   remark-parse@11.0.0:
     dependencies:

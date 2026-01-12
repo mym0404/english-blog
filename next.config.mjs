@@ -6,6 +6,7 @@ const withMDX = createMDX();
 const config = {
   reactStrictMode: true,
   serverExternalPackages: ["@takumi-rs/image-response"],
+  transpilePackages: ["remark-obsidian-mdx"],
   images: {
     minimumCacheTTL: 60 * 60 * 5,
     unoptimized: false,
