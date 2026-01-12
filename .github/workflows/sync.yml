@@ -26,14 +26,11 @@ jobs:
 
       - name: Write rclone config
         env:
-          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF
         run: |
+          set -euo pipefail
           mkdir -p ~/.config/rclone
-          # GitHub Secrets에 넣은 내용을 그대로 파일로 기록
-          cat > ~/.config/rclone/rclone.conf << 'EOF'
-          ${RCLONE_CONF}
-          EOF
-          # 안전을 위해 권한 제한
+          printf '%s' "$RCLONE_CONF" > ~/.config
           chmod 600 ~/.config/rclone/rclone.conf
 
       - name: Sync iCloud -> repo content/
