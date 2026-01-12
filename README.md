@@ -1,45 +1,11 @@
-# english
+# 나의 영어여행
 
-This is a Next.js application generated with
-[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+영어공부 블로그이다.
 
-Run development server:
+## Tech
 
-```bash
-npm run dev
-# or
-pnpm dev
-# or
-yarn dev
-```
+Obsidian으로 글을 쓰면 iCloud에 저장이 되고 rclone을 이용해서 github action에서 자동으로 동기화가 된다. 멀티 디바이스에서의 원활한 동기화 및 배포가 필요했다.
 
-Open http://localhost:3000 with your browser to see the result.
+Fumadocs를 이용해서 블로그를 만들었는데, Obsidian의 `===highlight===`, `[[link]]`, `![[embeded content]]`, `> [!note]` 같은 문법들을 지원하기 위해 [remark 플러그인](https://github.com/mym0404/remark-obsidian-mdx)도 직접 만들고있다.
 
-## Explore
-
-In the project, you can see:
-
-- `lib/source.ts`: Code for content source adapter, [`loader()`](https://fumadocs.dev/docs/headless/source-api) provides the interface to access your content.
-- `lib/layout.shared.tsx`: Shared options for layouts, optional but preferred to keep.
-
-| Route                     | Description                                            |
-| ------------------------- | ------------------------------------------------------ |
-| `app/(home)`              | The route group for your landing page and other pages. |
-| `app/docs`                | The documentation layout and pages.                    |
-| `app/api/search/route.ts` | The Route Handler for search.                          |
-
-### Fumadocs MDX
-
-A `source.config.ts` config file has been included, you can customise different options like frontmatter schema.
-
-Read the [Introduction](https://fumadocs.dev/docs/mdx) for further details.
-
-## Learn More
-
-To learn more about Next.js and Fumadocs, take a look at the following
-resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Fumadocs](https://fumadocs.dev) - learn about Fumadocs
+완성되면 이것에 대한 글을 써야겠다.
