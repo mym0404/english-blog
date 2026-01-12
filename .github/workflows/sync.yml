@@ -43,6 +43,7 @@ jobs:
           # iCloud의 경로: .Obsidian/english/content
           SRC="${REMOTE_NAME}:Obsidian/english/"
           DST="content"
+          bun global add zx
           bun scripts/sync.ts --remotePath=${SRC}
 
       - name: Commit & push if changed
