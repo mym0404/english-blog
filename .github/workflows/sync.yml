@@ -30,7 +30,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p ~/.config/rclone
-          printf '%s' "$RCLONE_CONF" > ~/.config
+          printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
           chmod 600 ~/.config/rclone/rclone.conf
 
       - name: Sync iCloud -> repo content/
