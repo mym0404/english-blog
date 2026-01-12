@@ -18,7 +18,10 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: true
-
+      - name: Pnpm
+        run: |
+          corepack enable
+          pnpm install
       - name: Install rclone
         run: |
           curl -fsSL https://rclone.org/install.sh | sudo bash
@@ -41,17 +44,9 @@ jobs:
           REMOTE_NAME="${REMOTE:-iclouddrive}"
 
           # iCloud의 경로: .Obsidian/english/content
-          SRC="${REMOTE_NAME}:Obsidian/english/content"
+          SRC="${REMOTE_NAME}:Obsidian/english/"
           DST="content"
-
-          mkdir -p "$DST"
-
-          # 레포의 content/를 iCloud 내용과 동일하게 맞춤(삭제 포함)
-          rclone sync "$SRC" "$DST" \
-            --create-empty-src-dirs \
-            --delete-excluded \
-            --fast-list \
-            -v
+          pnpm sync --remotePath=${SRC}
 
       - name: Commit & push if changed
         run: |
