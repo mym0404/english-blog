@@ -1,0 +1,72 @@
+name: Sync iCloud Obsidian Content
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *" # 매일 03:00 UTC (KST 12:00)
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Install rclone
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+          rclone version
+
+      - name: Write rclone config
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          mkdir -p ~/.config/rclone
+          # GitHub Secrets에 넣은 내용을 그대로 파일로 기록
+          cat > ~/.config/rclone/rclone.conf << 'EOF'
+          ${RCLONE_CONF}
+          EOF
+          # 안전을 위해 권한 제한
+          chmod 600 ~/.config/rclone/rclone.conf
+
+      - name: Sync iCloud -> repo content/
+        env:
+          REMOTE: ${{ secrets.RCLONE_REMOTE_NAME }}
+        run: |
+          set -euo pipefail
+          REMOTE_NAME="${REMOTE:-iclouddrive}"
+
+          # iCloud의 경로: .Obsidian/english/content
+          SRC="${REMOTE_NAME}:Obsidian/english/content"
+          DST="content"
+
+          mkdir -p "$DST"
+
+          # 레포의 content/를 iCloud 내용과 동일하게 맞춤(삭제 포함)
+          rclone sync "$SRC" "$DST" \
+            --create-empty-src-dirs \
+            --delete-excluded \
+            --fast-list \
+            -v
+
+      - name: Commit & push if changed
+        run: |
+          set -euo pipefail
+
+          if git status --porcelain | grep -q .; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+
+            git add content
+            git commit -m "Sync content from iCloud (.obsidian/english/content)"
+            git push
+          else
+            echo "No changes."
+          fi
