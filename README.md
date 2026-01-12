@@ -1,6 +1,6 @@
 # 나의 영어여행
 
-영어공부 블로그이다.
+영어공부 블로그이다. [웹사이트](https://english.mjstudio.net/)
 
 ## Tech
 
