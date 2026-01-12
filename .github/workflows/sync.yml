@@ -18,10 +18,7 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: true
-      - name: Pnpm
-        run: |
-          corepack enable
-          pnpm install
+      - uses: oven-sh/setup-bun@v2
       - name: Install rclone
         run: |
           curl -fsSL https://rclone.org/install.sh | sudo bash
@@ -46,7 +43,7 @@ jobs:
           # iCloud의 경로: .Obsidian/english/content
           SRC="${REMOTE_NAME}:Obsidian/english/"
           DST="content"
-          pnpm sync --remotePath=${SRC}
+          bun scripts/sync.ts --remotePath=${SRC}
 
       - name: Commit & push if changed
         run: |
