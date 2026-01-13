@@ -45,91 +45,33 @@ export default defineConfig({
         remarkObsidianMdx,
         {
           contentRoot: "./content",
-          callout: {
-            componentName: "Callout",
-            typePropName: "type",
-            defaultType: "info",
-            typeMap: {
-              note: "info",
-              abstract: "info",
-              summary: "info",
-              tldr: "info",
-              info: "info",
-              todo: "info",
-              quote: "info",
-              tip: "idea",
-              hint: "idea",
-              example: "idea",
-              question: "idea",
-              warn: "warn",
-              warning: "warn",
-              caution: "warn",
-              attention: "warn",
-              danger: "error",
-              error: "error",
-              fail: "error",
-              failure: "error",
-              bug: "error",
-              success: "success",
-              done: "success",
-              check: "success",
-            },
-          },
+          contentRootUrlPrefix: "",
+          wikiLinkPathTransform: ({ resolvedUrl }) =>
+            resolvedUrl?.replace("/content", ""),
+          embedingPathTransform: ({ resolvedUrl }) =>
+            resolvedUrl?.replace("/content", ""),
           embedRendering: {
-            note: ({ target }) => ({
-              type: "mdxJsxFlowElement",
-              name: "EmbedNote",
-              attributes: [
-                { type: "mdxJsxAttribute", name: "page", value: target.page },
-                {
-                  type: "mdxJsxAttribute",
-                  name: "anchor",
-                  value: target.anchor,
-                },
-                {
-                  type: "mdxJsxAttribute",
-                  name: "anchorType",
-                  value: target.anchorType,
-                },
-              ],
-              children: [],
-            }),
-            // image: ({
-            //   target,
-            //   imageWidth,
-            //   imageHeight,
-            //   resolvedUrlWithExtension,
-            // }) => ({
-            //   type: "mdxJsxFlowElement",
-            //   name: "Image",
-            //   attributes: [
-            //     {
-            //       type: "mdxJsxAttribute",
-            //       name: "src",
-            //       value: resolvedUrlWithExtension ?? target.page,
-            //     },
-            //     { type: "mdxJsxAttribute", name: "alt", value: target.page },
-            //     {
-            //       type: "mdxJsxAttribute",
-            //       name: "width",
-            //       value: imageWidth ?? 640,
-            //     },
-            //     {
-            //       type: "mdxJsxAttribute",
-            //       name: "height",
-            //       value: imageHeight ?? 480,
-            //     },
-            //   ],
-            //   children: [],
-            // }),
-            video: ({ target }) => ({
-              type: "mdxJsxFlowElement",
-              name: "EmbedVideo",
-              attributes: [
-                { type: "mdxJsxAttribute", name: "src", value: target.page },
-              ],
-              children: [],
-            }),
+            // note: ({ kind }) => {},
+            notFound: ({ target, kind }) => {
+              const targetValue = target.page ?? target.value;
+              return {
+                type: "mdxJsxFlowElement",
+                name: "EmbeddingNotFound",
+                attributes: [
+                  {
+                    type: "mdxJsxAttribute",
+                    name: "target",
+                    value: targetValue,
+                  },
+                  {
+                    type: "mdxJsxAttribute",
+                    name: "kind",
+                    value: kind,
+                  },
+                ],
+                children: [],
+              };
+            },
           },
         } satisfies PluginOptions,
       ],

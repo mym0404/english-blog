@@ -60,7 +60,7 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       remark-obsidian-mdx:
-        specifier: file:/Users/user1/Desktop/mj/remark-obsidian
+        specifier: file:../remark-obsidian
         version: file:../remark-obsidian
       three:
         specifier: ^0.182.0

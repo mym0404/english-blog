@@ -43,7 +43,7 @@ const ActionButton = ({
     <button
       type={type ?? "button"}
       onClick={onClick}
-      className={mergedClassName}
+      className={`${mergedClassName} hover:cursor-pointer`}
     >
       {children}
     </button>

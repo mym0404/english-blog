@@ -1,4 +1,5 @@
 import { DocsLayout } from "fumadocs-ui/layouts/docs";
+import { PackageOpenIcon } from "lucide-react";
 import { baseOptions } from "@/lib/layout.shared";
 import { getSection } from "@/lib/navigation";
 import { source } from "@/lib/source";
@@ -8,6 +9,14 @@ export default function Layout({ children }: LayoutProps<"/docs">) {
     <DocsLayout
       tree={source.getPageTree()}
       {...baseOptions()}
+      links={[
+        {
+          icon: <PackageOpenIcon />,
+          text: "Blog",
+          url: "/blog",
+          active: "nested-url",
+        },
+      ]}
       sidebar={{
         tabs: {
           transform(option, node) {

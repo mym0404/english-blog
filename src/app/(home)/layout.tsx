@@ -1,5 +1,5 @@
 import { HomeLayout } from "fumadocs-ui/layouts/home";
-import { MilestoneIcon, NotepadTextIcon } from "lucide-react";
+import { NotepadTextIcon, PackageOpenIcon } from "lucide-react";
 
 import { baseOptions } from "@/lib/layout.shared";
 
@@ -15,7 +15,7 @@ export default function Layout({ children }: LayoutProps<"/">) {
           active: "nested-url",
         },
         {
-          icon: <MilestoneIcon />,
+          icon: <PackageOpenIcon />,
           text: "Blog",
           url: "/blog",
           active: "nested-url",
