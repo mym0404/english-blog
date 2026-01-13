@@ -23,9 +23,7 @@ const NotFoundPage = () => {
         </p>
       </div>
       <div
-        className={
-          "animate-fade-in opacity-0 [animation-fill-mode:forwards]"
-        }
+        className={"animate-fade-in opacity-0 [animation-fill-mode:forwards]"}
         style={{ animationDelay: "3s" }}
       >
         <NotFoundActions />

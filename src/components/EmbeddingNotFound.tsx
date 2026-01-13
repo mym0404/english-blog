@@ -26,7 +26,11 @@ const EmbeddingNotFound = ({ target, kind }: EmbeddingNotFoundProps) => {
         }
       />
       <div className={"relative flex flex-col gap-2"}>
-        <div className={"text-[11px] uppercase tracking-[0.35em] text-fd-muted-foreground"}>
+        <div
+          className={
+            "text-[11px] uppercase tracking-[0.35em] text-fd-muted-foreground"
+          }
+        >
           Embed Not Found
         </div>
         <div className={"text-base font-semibold text-fd-foreground"}>
@@ -34,7 +38,9 @@ const EmbeddingNotFound = ({ target, kind }: EmbeddingNotFoundProps) => {
         </div>
         <div className={"text-sm text-fd-muted-foreground"}>
           {target && <div>{target}</div>}
-          {kind && <div className={"text-fd-muted-foreground"}>type: {kind}</div>}
+          {kind && (
+            <div className={"text-fd-muted-foreground"}>type: {kind}</div>
+          )}
         </div>
       </div>
     </div>

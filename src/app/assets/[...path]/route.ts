@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { NextRequest } from "next/server";
+import type { NextRequest } from "next/server";
 
 export const runtime = "nodejs";
 
@@ -26,7 +26,8 @@ const toAssetPath = ({ pathname }: { pathname: string }) => {
 
   const resolvedPath = path.resolve(ASSET_ROOT, decodedPath);
   const withinRoot =
-    resolvedPath === ASSET_ROOT || resolvedPath.startsWith(`${ASSET_ROOT}${path.sep}`);
+    resolvedPath === ASSET_ROOT ||
+    resolvedPath.startsWith(`${ASSET_ROOT}${path.sep}`);
 
   if (!withinRoot) {
     return null;
@@ -75,8 +76,7 @@ type ErrorWithCode = Error & { code?: string };
 const isErrorWithCode = (value: unknown): value is ErrorWithCode =>
   value instanceof Error && "code" in value;
 
-const createNotFoundResponse = () =>
-  new Response("Not found", { status: 404 });
+const createNotFoundResponse = () => new Response("Not found", { status: 404 });
 
 export const GET = async (request: NextRequest) => {
   const assetPath = toAssetPath({ pathname: request.nextUrl.pathname });

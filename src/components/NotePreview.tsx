@@ -94,13 +94,21 @@ const getNodeKey = ({
   return candidate;
 };
 
-const getFileLabel = ({ resolvedUrl, target }: { resolvedUrl?: string; target?: string }) => {
+const getFileLabel = ({
+  resolvedUrl,
+  target,
+}: {
+  resolvedUrl?: string;
+  target?: string;
+}) => {
   const candidate = resolvedUrl ?? target;
   if (!candidate) {
     return null;
   }
 
-  const normalized = candidate.startsWith("/") ? normalizeResolvedUrl(candidate) : candidate;
+  const normalized = candidate.startsWith("/")
+    ? normalizeResolvedUrl(candidate)
+    : candidate;
   const lastSegment = normalized.split("/").filter(Boolean).pop();
   if (!lastSegment) {
     return null;
@@ -203,7 +211,11 @@ const NotePreview = ({
               {headingText}
             </div>
             {fileLabel ? (
-              <div className={"text-[11px] uppercase tracking-[0.28em] text-fd-muted-foreground"}>
+              <div
+                className={
+                  "text-[11px] uppercase tracking-[0.28em] text-fd-muted-foreground"
+                }
+              >
                 {fileLabel}
               </div>
             ) : null}
