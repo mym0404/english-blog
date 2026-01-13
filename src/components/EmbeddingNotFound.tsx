@@ -7,12 +7,22 @@ const EmbeddingNotFound = ({ target, kind }: EmbeddingNotFoundProps) => {
   return (
     <div
       className={
-        "relative block overflow-hidden rounded-2xl border border-fd-border bg-fd-primary/5 px-5 py-4 text-left text-fd-foreground shadow-sm"
+        "relative block overflow-hidden rounded-2xl border border-fd-border/70 bg-fd-background/40 px-5 py-4 text-left text-fd-foreground shadow-sm backdrop-blur-xl"
       }
     >
       <div
         className={
-          "pointer-events-none absolute -top-10 left-10 h-24 w-24 rounded-full bg-fd-primary/20 blur-3xl"
+          "pointer-events-none absolute inset-0 bg-[linear-gradient(130deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02),rgba(255,255,255,0))]"
+        }
+      />
+      <div
+        className={
+          "pointer-events-none absolute -top-10 left-10 h-24 w-24 rounded-full bg-fd-primary/25 blur-3xl"
+        }
+      />
+      <div
+        className={
+          "pointer-events-none absolute -bottom-10 right-6 h-20 w-20 rounded-full bg-fd-primary/15 blur-3xl"
         }
       />
       <div className={"relative flex flex-col gap-2"}>

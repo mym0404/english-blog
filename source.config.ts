@@ -51,7 +51,45 @@ export default defineConfig({
           embedingPathTransform: ({ resolvedUrl }) =>
             resolvedUrl?.replace("/content", ""),
           embedRendering: {
-            // note: ({ kind }) => {},
+            note: ({ resolvedUrl, target, alias }) => {
+              const targetValue = target.page ?? target.value;
+              const attributes: {
+                type: "mdxJsxAttribute";
+                name: string;
+                value: string;
+              }[] = [];
+
+              if (resolvedUrl) {
+                attributes.push({
+                  type: "mdxJsxAttribute",
+                  name: "resolvedUrl",
+                  value: resolvedUrl,
+                });
+              }
+
+              if (targetValue) {
+                attributes.push({
+                  type: "mdxJsxAttribute",
+                  name: "target",
+                  value: targetValue,
+                });
+              }
+
+              if (alias) {
+                attributes.push({
+                  type: "mdxJsxAttribute",
+                  name: "alias",
+                  value: alias,
+                });
+              }
+
+              return {
+                type: "mdxJsxFlowElement",
+                name: "NotePreview",
+                attributes,
+                children: [],
+              };
+            },
             notFound: ({ target, kind }) => {
               const targetValue = target.page ?? target.value;
               return {
