@@ -13,7 +13,7 @@
     "t": "pnpm run types:check && pnpm run lint",
     "sync": "bun scripts/sync.ts",
     "sync:up": "bun scripts/sync-up.ts",
-    "reinstall": "pnpm remove remark-obsidian-mdx && pnpm add ../remark-obsidian"
+    "reinstall": "rm -rf node_modules/remark-obsidian-mdx && pnpm update remark-obsidian-mdx"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
