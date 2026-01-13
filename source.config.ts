@@ -40,7 +40,69 @@ export const blog = defineCollections({
 export default defineConfig({
   mdxOptions: {
     // MDX options
-    remarkPlugins: [remarkObsidianMdx, remarkMath],
+    remarkPlugins: [[remarkObsidianMdx, {
+      callout: {
+        componentName: "Callout",
+        typePropName: "type",
+        defaultType: "info",
+        typeMap: {
+          note: "info",
+          abstract: "info",
+          summary: "info",
+          tldr: "info",
+          info: "info",
+          todo: "info",
+          quote: "info",
+          tip: "idea",
+          hint: "idea",
+          example: "idea",
+          question: "idea",
+          warn: "warn",
+          warning: "warn",
+          caution: "warn",
+          attention: "warn",
+          danger: "error",
+          error: "error",
+          fail: "error",
+          failure: "error",
+          bug: "error",
+          success: "success",
+          done: "success",
+          check: "success",
+        },
+      },
+      embedRendering: {
+        note: ({ target }) => ({
+          type: "mdxJsxFlowElement",
+          name: "EmbedNote",
+          attributes: [
+            { type: "mdxJsxAttribute", name: "page", value: target.page },
+            { type: "mdxJsxAttribute", name: "anchor", value: target.anchor },
+            { type: "mdxJsxAttribute", name: "anchorType", value: target.anchorType },
+          ],
+          children: [],
+        }),
+        image: ({ target }) => ({
+          type: "image",
+          url: target.page,
+          name: "img",
+          alt: '',
+          attributes: [
+            { type: "mdxJsxAttribute", name: "src", value: target.page },
+          ],
+          children: [],
+        }),
+        video: ({ target }) => ({
+          type: "mdxJsxFlowElement",
+          name: "EmbedVideo",
+          attributes: [
+            { type: "mdxJsxAttribute", name: "src", value: target.page },
+          ],
+          children: [],
+        }),
+      },
+
+    }], remarkMath],
     rehypePlugins: (v) => [rehypeKatex, ...v],
   },
 });

@@ -12,7 +12,8 @@
     "format": "biome format --write",
     "t": "pnpm run types:check && pnpm run lint",
     "sync": "bun scripts/sync.ts",
-    "sync:up": "bun scripts/sync-up.ts"
+    "sync:up": "bun scripts/sync-up.ts",
+    "reinstall": "pnpm remove remark-obsidian-mdx && pnpm add ../remark-obsidian"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
@@ -32,7 +33,7 @@
     "rehype-katex": "^7.0.1",
     "remark-directive": "^4.0.0",
     "remark-math": "^6.0.0",
-    "remark-obsidian-mdx": "^0.0.2",
+    "remark-obsidian-mdx": "file:/Users/user1/Desktop/mj/remark-obsidian",
     "three": "^0.182.0",
     "zod": "^4.3.4"
   },

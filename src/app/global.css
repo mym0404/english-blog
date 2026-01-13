@@ -4,78 +4,92 @@
 @import "fumadocs-ui/css/preset.css";
 
 @theme {
-  --animate-fade-in: fade-in 0.5s ease-in-out;
+    --animate-fade-in: fade-in 0.5s ease-in-out;
 
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
-    100% {
-      opacity: 1;
-    }
-  }
 }
 
 :root {
-  --grammar-color: hsl(250, 80%, 54%);
-  --listening-color: hsl(41, 100%, 40%);
-  --highlight-color: hsl(268, 72%, 40%);
+    --grammar-color: hsl(250, 80%, 54%);
+    --listening-color: hsl(41, 100%, 40%);
+    --highlight-color: hsl(268, 72%, 40%);
 }
 
 .dark {
-  --grammar-color: hsl(250, 100%, 80%);
-  --listening-color: #fff383;
-  --highlight-color: hsl(268, 80%, 78%);
+    --grammar-color: hsl(250, 100%, 80%);
+    --listening-color: #fff383;
+    --highlight-color: hsl(268, 80%, 78%);
 }
 
 @layer utilities {
-  .article h1 {
-    margin-top: 4rem;
-  }
-  .article h2 {
-    margin-top: 2rem;
-  }
-  .article blockquote {
-    font-style: normal;
-    quotes: none;
-    background: color-mix(
-      in oklab,
-      var(--color-fd-muted-foreground) 8%,
-      transparent
-    );
-    border-inline-start-width: 4px;
-    border-inline-start-style: solid;
-    border-inline-start-color: transparent;
-    border-image: linear-gradient(
-        180deg,
-        color-mix(in oklab, var(--color-fd-foreground) 80%, transparent),
-        var(--color-fd-muted-foreground),
-        var(--color-fd-foreground)
-      )
-      1;
-    border-radius: 8px;
-  }
-  .article code {
-    border-bottom: 2px solid
-      color-mix(in oklab, var(--color-fd-foreground) 60%, transparent);
-    border-radius: 5px;
-  }
-  .article figure code {
-    border: none;
-  }
-  .article blockquote p:first-of-type::before,
-  .article blockquote p:last-of-type::after {
-    content: none;
-  }
-  .article strong {
-    color: var(--highlight-color);
-  }
-  .article img {
-    max-width: 100%;
-  }
-  @media (min-width: theme(--breakpoint-sm)) {
-    .article img {
-      max-width: 300px;
+    .article h1 {
+        margin-top: 4rem;
     }
-  }
+
+    .article h2 {
+        margin-top: 2rem;
+    }
+
+    .article mark {
+        background-color: var(--color-fd-accent);
+        color: var(--color-fd-accent-foreground);
+        font-weight: bold;
+        padding: 0 4px;
+        border-radius: 2px;
+    }
+
+    .article blockquote {
+        font-style: normal;
+        quotes: none;
+        background: color-mix(
+                in oklab,
+                var(--color-fd-muted-foreground) 8%,
+                transparent
+        );
+        border-inline-start-width: 4px;
+        border-inline-start-style: solid;
+        border-inline-start-color: transparent;
+        border-image: linear-gradient(
+                180deg,
+                color-mix(in oklab, var(--color-fd-foreground) 80%, transparent),
+                var(--color-fd-muted-foreground),
+                var(--color-fd-foreground)
+        ) 1;
+        border-radius: 8px;
+    }
+
+    .article code {
+        border-bottom: 2px solid color-mix(in oklab, var(--color-fd-foreground) 60%, transparent);
+        border-radius: 5px;
+    }
+
+    .article figure code {
+        border: none;
+    }
+
+    .article blockquote p:first-of-type::before,
+    .article blockquote p:last-of-type::after {
+        content: none;
+    }
+
+    .article strong {
+        color: var(--highlight-color);
+    }
+
+    .article img {
+        max-width: 100%;
+    }
+
+    @media (min-width: theme(--breakpoint-sm)) {
+        .article img {
+            max-width: 300px;
+        }
+    }
 }
