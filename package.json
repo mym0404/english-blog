@@ -33,7 +33,7 @@
     "rehype-katex": "^7.0.1",
     "remark-directive": "^4.0.0",
     "remark-math": "^6.0.0",
-    "remark-obsidian-mdx": "^1.0.0",
+    "remark-obsidian-mdx": "1.0.1",
     "three": "^0.182.0",
     "zod": "^4.3.4"
   },

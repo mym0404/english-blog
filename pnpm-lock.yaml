@@ -60,8 +60,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       remark-obsidian-mdx:
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: 1.0.1
+        version: 1.0.1
       three:
         specifier: ^0.182.0
         version: 0.182.0
@@ -2126,8 +2126,8 @@ packages:
   remark-mdx@3.1.1:
     resolution: {integrity: sha512-Pjj2IYlUY3+D8x00UJsIOg5BEvfMyeI+2uLPn9VO9Wg4MEtN/VTIq2NEJQfde9PnX15KgtHyl9S0BcTnWrIuWg==}
 
-  remark-obsidian-mdx@1.0.0:
-    resolution: {integrity: sha512-Kii//AiCYQKIQuaLhxcsMocMhdciTm1xyQ4r7Qiw9aEd4Cs6m0+XaysyA+cEB30ptPKNW4aHi2BH1kXGdrrlrQ==}
+  remark-obsidian-mdx@1.0.1:
+    resolution: {integrity: sha512-FwfQEsWcsmeLQBERhACzbtiR0I+1FpQwffv0/4SGAgleHSvDVa9/bO/4wn9KlGl96Z9qS2B1ypRijyfOtvZ3yw==}
 
   remark-parse@11.0.0:
     resolution: {integrity: sha512-FCxlKLNGknS5ba/1lmpYijMUzX2esxW5xQqjWxw2eHFfS2MSdaHVINFmhjo+qN1WhZhNimq0dZATN9pH0IDrpA==}
@@ -4699,7 +4699,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  remark-obsidian-mdx@1.0.0: {}
+  remark-obsidian-mdx@1.0.1: {}
 
   remark-parse@11.0.0:
     dependencies:
