@@ -1,2 +1,2 @@
-> [!WARNING] Warning
+> [!WARNING]
 > <% tp.file.cursor(1) %>

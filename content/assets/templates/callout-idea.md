@@ -1,2 +1,2 @@
-> [!SUMMARY] Summary
+> [!IDEA]
 > <% tp.file.cursor(1) %>

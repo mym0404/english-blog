@@ -1,2 +1,2 @@
-> [!INFO] Info
+> [!INFO]
 > <% tp.file.cursor(1) %>
