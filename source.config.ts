@@ -47,9 +47,13 @@ export default defineConfig({
           contentRoot: "./content",
           contentRootUrlPrefix: "",
           wikiLinkPathTransform: ({ resolvedUrl }) =>
-            resolvedUrl?.replace("/content", ""),
+            resolvedUrl
+              ?.replace("/content", "")
+              .replaceAll(/\([^()]+\)\//g, ""),
           embedingPathTransform: ({ resolvedUrl }) =>
-            resolvedUrl?.replace("/content", ""),
+            resolvedUrl
+              ?.replace("/content", "")
+              .replaceAll(/\([^()]+\)\//g, ""),
           embedRendering: {
             note: ({ resolvedUrl, target, alias }) => {
               const targetValue = target.page ?? target.value;
