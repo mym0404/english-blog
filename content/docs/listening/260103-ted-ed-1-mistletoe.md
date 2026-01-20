@@ -1,5 +1,5 @@
 ---
-title: Ted Ed - Why do we kiss under mistletoe? - Carlos Reif
+title: Why do we kiss under mistletoe? - Carlos Reif
 tag:
   - English
   - Study
