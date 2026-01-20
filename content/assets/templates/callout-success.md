@@ -1,2 +1,2 @@
-> [!SUCCESS] Success
+> [!SUCCESS]
 > <% tp.file.cursor(1) %>
