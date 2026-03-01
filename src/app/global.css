@@ -91,7 +91,7 @@
 
   @media (min-width: theme(--breakpoint-sm)) {
     .article img {
-      max-width: 300px;
+      max-width: 500px;
     }
   }
 }

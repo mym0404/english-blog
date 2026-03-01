@@ -25,9 +25,25 @@ export default async function BlogIndex() {
             key={post.url}
             href={post.url}
             className={
-              "block rounded-xl border border-fd-border p-6 transition-all hover:border-fd-primary/30 hover:dark:drop-shadow hover:dark:drop-shadow-white/20 hover:shadow-lg"
+              "relative overflow-hidden block rounded-xl border border-fd-border p-6 transition-all hover:border-fd-primary/30 hover:dark:drop-shadow hover:dark:drop-shadow-white/20 hover:shadow-lg"
             }
           >
+            {post.data.teaser && (
+              <div
+                className={
+                  "absolute bottom-0 right-0 w-48 h-27 pointer-events-none"
+                }
+                style={{
+                  backgroundImage: `url(${post.data.teaser})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  maskImage:
+                    "linear-gradient(to top left, rgba(0,0,0,0.55) 0%, transparent 70%)",
+                  WebkitMaskImage:
+                    "linear-gradient(to top left, rgba(0,0,0,0.55) 0%, transparent 70%)",
+                }}
+              />
+            )}
             <div
               className={
                 "flex items-center gap-2 text-xs text-fd-muted-foreground mb-3"

@@ -34,6 +34,7 @@ export const blog = defineCollections({
     date: z.coerce.date().optional(),
     author: z.string().default("MJ"),
     tags: z.array(z.string()).optional(),
+    teaser: z.string().optional(),
   }),
 });
 

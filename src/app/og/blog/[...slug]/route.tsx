@@ -35,12 +35,25 @@ export const GET = async (
     ? truncateText(page.data.description, 400)
     : undefined;
 
+  let teaserSrc: string | undefined;
+  if (page.data.teaser) {
+    try {
+      const teaserResponse = await fetch(page.data.teaser);
+      const teaserArrayBuffer = await teaserResponse.arrayBuffer();
+      const teaserBuffer = Buffer.from(teaserArrayBuffer);
+      teaserSrc = `data:image/png;base64,${teaserBuffer.toString("base64")}`;
+    } catch (error) {
+      console.error("Failed to fetch teaser image:", error);
+    }
+  }
+
   return new ImageResponse(
     <MetadataImage
       title={title}
       description={description}
       logoSrc={logoSrc}
       backgroundSrc={backgroundSrc}
+      teaser={teaserSrc}
     />,
     options,
   );
