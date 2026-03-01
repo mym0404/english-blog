@@ -1,4 +1,3 @@
-
 ## I decided what I'd study next
 
 - file: 260106-i-decided-what-i-would-study-next.mdx
@@ -11,11 +10,11 @@ Content summary: After researching various English books, chose a storybook by a
 Keywords: decision, study, book, English, planning, trust, education
 
 # Visual Design
-Cover theme: choosing a path
-Type: metaphor
-Palette: elegant
+Cover theme: book chosen
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
-Font: handwritten
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -25,37 +24,36 @@ Language: en
 Title: "I decided what I'd study next"
 
 # Mood Application
-Use medium contrast, normal saturation, balanced visual weight. The image should feel thoughtful and resolute — a quiet moment of clarity after deliberation.
+Use medium contrast with standard black-white separation. Quiet and resolute. The simplicity of having made a choice.
 
 # Font Application
-Use warm hand-lettered typography with organic brush strokes. Approachable, human feel. Casual yet intentional letterforms suggesting personal decision-making.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Metaphor type: A concrete crossroads representing the abstract act of choosing a study direction
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A single road forking into two paths at center. The left path leads to a grammar book icon, the right to a storybook with a speech bubble. The right path is highlighted with a soft coral glow and a small checkmark, indicating the chosen direction. A signpost at the fork has small hand-lettered labels.
-- Layout: Fork positioned at center-left, paths extending toward upper corners. Title at the top. Open whitespace in the lower third.
-- Decorative: Muted teal shadows along the unchosen path, giving it a slightly faded look. Small footprint marks leading down the chosen path. Delicate grass tufts sketched along both paths.
+- Main visual: A single open book at center drawn in pure black ink, its right page bearing a bold hand-drawn checkmark in dark gray. The left page shows faint ruled lines suggesting unread content.
+- Layout: Book dead center, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A thin dark gray shadow beneath the book. Nothing more.
 
 Color scheme:
-- Primary: Soft Coral #E8A598 glowing on the chosen path, Muted Teal #5B8A8A on the unchosen
-- Background: Warm Cream #F5F0E6
-- Accent: Gold #C9A962 on the checkmark and signpost details
+- Primary: Pure Black #000000 for the book outline and pages
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the checkmark and shadow only
 
 Rendering notes:
-- Paths drawn with organic, slightly wavy lines
-- Variable line weight — thicker on the chosen path, thinner on the alternative
-- Paper grain texture throughout
-- Minimal depth, flat perspective looking slightly down at the fork
+- Clean hand-drawn lines on the book with natural imperfection
+- Checkmark drawn with a confident single stroke
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Metaphor: The fork in the road is the decision, the highlighted path is the commitment
+- Minimal: The book and its checkmark say everything. Nothing else needed.
 
 Palette notes:
-- Elegant: Refined, thoughtful decision-making atmosphere
-- Gentle contrast between chosen and unchosen paths, not dramatic
+- Mono: Stark black on white, maximum negative space, the decision is the image
 
 ---
 
@@ -71,9 +69,9 @@ Content summary: Editorial reflecting on AI coding agents as a double-edged swor
 Keywords: AI, coding agent, productivity, technical debt, double-edged sword, introspection, development
 
 # Visual Design
-Cover theme: double-edged technology
-Type: conceptual
-Palette: dark
+Cover theme: machine hand
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
 Font: clean
 Text level: title-only
@@ -85,37 +83,36 @@ Language: en
 Title: "AI Agent Revolution, is it worthy it?"
 
 # Mood Application
-Use medium contrast with standard saturation for neon accents against the dark field. The glow elements should be clearly visible but not overwhelming. A contemplative, questioning mood rather than aggressive.
+Use medium contrast with standard black-white separation. Contemplative, questioning. The sparseness reflects critical distance from the technology.
 
 # Font Application
-Use clean geometric sans-serif typography. Modern, minimal letterforms. Sharp edges, uniform stroke weight. A faint cyan glow outline on the title for subtle tech atmosphere.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Conceptual type: Abstract shapes representing the duality of AI agents, clear information zones
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A stylized double-edged sword at center, rendered in glowing cyan and electric purple sketch lines. One side of the blade reflects code snippets, the other side shows question marks and broken chain links. Orbiting the sword are small hand-drawn icons: a gear (productivity), a terminal window (coding), a broken chain (dependency), and a magnifying glass (scrutiny).
-- Layout: Sword vertical at center, icons in a loose orbit. Atmospheric fog fills the lower third. Title at the top. The question mark side faces the viewer more prominently.
-- Decorative: Subtle particle effects as faint dots around the sword tip. Thin atmospheric hatching fading into the dark background edges.
+- Main visual: A single outlined robot hand at center drawn in pure black ink, fingers slightly open in a questioning gesture. Geometric, essential — no internal detail beyond the basic structural lines.
+- Layout: Robot hand dead center, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A single question mark floating above the open fingers in dark gray. Nothing more.
 
 Color scheme:
-- Primary: Cyan Blue #06B6D4 on one blade face, Electric Purple #8B5CF6 on the other
-- Background: Deep Purple-Black #0A0A0A
-- Accent: Amber #F59E0B on the magnifying glass, Magenta Pink #EC4899 on the broken chain glow
+- Primary: Pure Black #000000 for the hand outline
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the question mark only
 
 Rendering notes:
-- Sketchy organic lines with hand tremor visible on the sword edges
-- Glowing effects rendered as multiple overlapping sketch strokes
-- Atmospheric fog as soft pencil hatching layers
-- Variable line weight — heavier on the sword, lighter on the orbiting icons
+- Clean hand-drawn lines with natural wobble on the geometric hand shape
+- Question mark drawn with a single confident stroke
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Conceptual: The double-edged sword is the central metaphor, icons represent facets of the argument
+- Minimal: One machine hand, one question mark. The ambivalence is the subject.
 
 Palette notes:
-- Dark: Cinematic tech atmosphere, glowing elements against deep darkness
-- Balanced contrast — neon accents at standard saturation, not overwhelming
+- Mono: Maximum negative space, the hand alone on white, no embellishment
 
 ---
 
@@ -131,9 +128,9 @@ Content summary: Technical editorial for BOJ problem 33918 involving dynamic pro
 Keywords: algorithm, BOJ, DP, monotone deque, competitive programming, optimization, editorial
 
 # Visual Design
-Cover theme: algorithmic structure
-Type: conceptual
-Palette: dark
+Cover theme: algorithm node
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
 Font: clean
 Text level: title-only
@@ -145,36 +142,36 @@ Language: en
 Title: "BOJ problem solving editorial"
 
 # Mood Application
-Use medium contrast with standard neon saturation against the dark field. Technical precision in the glow lines. Intellectual atmosphere, not dramatic.
+Use medium contrast with standard black-white separation. Precise and intellectual. The clarity of an algorithmic solution.
 
 # Font Application
-Use clean geometric sans-serif typography. Sharp, uniform, modern. The title should feel precise and technical.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Conceptual type: Abstract data structures representing the algorithm solution, information hierarchy
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A horizontal deque data structure at center rendered as a row of connected cells in glowing cyan ink, with arrows entering and exiting both ends. Above it, a DP table grid partially filled with values in electric purple, connected to the deque by dashed lines. Mathematical notation fragments float around: O(NM), modular residue symbols.
-- Layout: Deque centered horizontally, DP table above and slightly left. Notation fragments scattered in the remaining space. Title at the top. Atmospheric fog in the lower third.
-- Decorative: Amber highlights trace the optimal path through the DP table. Thin white ink strokes for the notation. Faint grid lines in the background suggesting a graph paper texture.
+- Main visual: A single circular graph node at center drawn in pure black ink, with three thin connection lines extending outward to three small empty nodes. Together they form a minimal tree structure suggesting algorithmic hierarchy.
+- Layout: Central node at center, child nodes at short distances. 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A small directional arrow on one connection line in dark gray. Nothing more.
 
 Color scheme:
-- Primary: Cyan Blue #06B6D4 for deque cells, Electric Purple #8B5CF6 for DP table values
-- Background: Deep Purple-Black #0A0A0A
-- Accent: Amber #F59E0B tracing the optimal path, White #FFFFFF for notation text
+- Primary: Pure Black #000000 for the central node and lines
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the outer nodes and arrow only
 
 Rendering notes:
-- Clean-ish sketch lines for the data structures, more precise than typical hand-drawn
-- Glowing effects as multiple overlapping strokes
-- Pencil-texture fog in the background
-- Graph paper grid as faint underlying texture
+- Circles drawn with clean hand-drawn lines, nearly precise
+- Connection lines thin and straight with natural hand-drawn imperfection
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Conceptual: Data structures as abstract visual representation of the algorithm
+- Minimal: The node structure says algorithm. One cluster, generous space.
 
 Palette notes:
-- Dark: Technical problem-solving atmosphere with code/algorithm aesthetic
+- Mono: Clean black on white, the graph structure carries all the meaning
 
 ---
 
@@ -190,11 +187,11 @@ Content summary: A chaotic day during army weekend pass: meeting girlfriend at C
 Keywords: hectic, army, weekend pass, wedding, rush, train, snow, appointments, Seoul
 
 # Visual Design
-Cover theme: racing through the city
-Type: scene
-Palette: dark
+Cover theme: tangled clock
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
-Font: handwritten
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -204,36 +201,36 @@ Language: en
 Title: "It was a hectic day."
 
 # Mood Application
-Use medium contrast with standard neon saturation. Atmospheric but not aggressive. The energy should come from the composition's movement, not from overwhelming color intensity.
+Use medium contrast with standard black-white separation. Balanced visual weight. The chaos is expressed through the single focal element, not through complexity.
 
 # Font Application
-Use warm hand-lettered typography with organic brush strokes. The baseline should have a slight forward lean suggesting urgency and motion. Natural stroke weight variation.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Scene type: Atmospheric urban narrative with time-pressure elements
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A tangled web of train routes and subway lines drawn in glowing cyan and magenta sketch lines at center, with small station dots marked along the paths. Three appointment icons orbit the route map: a cafe cup, wedding bells, and beer glasses, each in warm amber glow with sketchy outlines.
-- Layout: Route map centered, icons positioned at three points around it like a clock face. A spinning clock near the top right. Snow particles as small white dots falling across the scene. Title at the top.
-- Decorative: Faint station names in tiny hand-lettered text along the routes. A small train icon racing along one of the lines. Atmospheric fog in the lower portion.
+- Main visual: A single clock face at center drawn in pure black ink. The two hands are tangled together in a knot, drawn in dark gray, suggesting the day's impossible schedule. The clock numerals are minimal notches around the rim.
+- Layout: Clock dead center, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A few short motion lines extending from the tangled hands. Nothing more.
 
 Color scheme:
-- Primary: Cyan Blue #06B6D4 for subway lines, Magenta Pink #EC4899 for alternate routes
-- Background: Deep Purple-Black #0A0A0A
-- Accent: Amber #F59E0B on appointment icons, White #FFFFFF for snow particles
+- Primary: Pure Black #000000 for the clock face and rim
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the tangled hands and motion lines only
 
 Rendering notes:
-- Tangled, energetic line quality for the route map — messier than typical
-- Snow as scattered white ink dots with slight smear
-- Variable line weight suggesting speed and rush
-- Atmospheric dark washes in pencil hatching
+- Clock circle drawn with clean hand-drawn curvature
+- Tangled hands drawn with overlapping, looping strokes
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Scene: Urban narrative atmosphere, the city as a character in the story
+- Minimal: One clock, tangled hands. The chaos is self-evident.
 
 Palette notes:
-- Dark: Night-time city energy, neon transit map aesthetic
+- Mono: Stark black on white, the tangled hands carry all the visual tension
 
 ---
 
@@ -308,11 +305,11 @@ Content summary: Completed Hyrule Warriors: Age of Imprisonment, a Christmas gif
 Keywords: gaming, Zelda, Hyrule Warriors, victory, Nintendo, open-world, story, Christmas
 
 # Visual Design
-Cover theme: triumphant blade
-Type: hero
-Palette: dark
+Cover theme: sword silhouette
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
-Font: display
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -322,36 +319,36 @@ Language: en
 Title: "I beat Hyrule Warriors: Age of Imprisonment"
 
 # Mood Application
-Use medium contrast with standard neon saturation. Triumphant but not aggressive. The glow should feel earned and warm, not explosive.
+Use medium contrast with standard black-white separation. Quiet triumph. The single shape says everything.
 
 # Font Application
-Use bold decorative display typography. Heavy, expressive letterforms. Strong visual impact with a subtle electric purple glow outline. Designed for this headline moment.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Hero type: Large focal visual (60-70% area), dramatic triumphant composition
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A massive glowing sword planted upright into cracked ground at center, rendered in amber and electric purple sketch lines with radiating light rays in cyan extending outward. Broken chain links scatter at the base, suggesting imprisonment defeated.
-- Layout: Sword centered, taking 65% of the frame. Light rays extend to the edges. Title at the top in heavy display font. Atmospheric fog in the lower corners.
-- Decorative: Behind the sword, a stylized Hyrule crest as a faint geometric sketch dissolving into fog. Small particle effects as ascending embers around the sword. Faint ancient rune marks on the cracked ground.
+- Main visual: A single upright sword silhouette at center drawn in pure black ink, blade pointing upward. Clean, essential shape with a simple crossguard. A faint small triforce mark sketched lightly at the crossguard in dark gray.
+- Layout: Sword centered vertically, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A thin dark gray shadow at the sword's base. Nothing more.
 
 Color scheme:
-- Primary: Amber #F59E0B for the sword glow, Electric Purple #8B5CF6 for the blade edges
-- Background: Deep Purple-Black #0A0A0A
-- Accent: Cyan Blue #06B6D4 for light rays, Magenta Pink #EC4899 on the broken chains
+- Primary: Pure Black #000000 for the sword silhouette
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the triforce mark and base shadow only
 
 Rendering notes:
-- Bold sketch lines with heavy stroke weight on the sword
-- Glowing effects as multiple overlapping hand-drawn strokes
-- Atmospheric fog as soft pencil hatching layers
-- Cracked ground texture with irregular hand-drawn fracture lines
+- Sword drawn with clean confident strokes, slight hand-drawn wobble on the edges
+- Triforce mark as three small triangles, barely visible
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Hero: The sword dominates the frame as the victory symbol
+- Minimal: One sword, one mark of victory. Generous surrounding space.
 
 Palette notes:
-- Dark: Cinematic gaming triumph, warm glow against deep darkness
+- Mono: Stark black silhouette on white, the shape alone conveys the win
 
 ---
 
@@ -367,11 +364,11 @@ Content summary: Purchased an e-book by Oliver from the Easy English Podcast. Le
 Keywords: phrasal verbs, book, Oliver, podcast, practice, story writing, vocabulary
 
 # Visual Design
-Cover theme: words from pages
-Type: scene
-Palette: elegant
+Cover theme: open book
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
-Font: handwritten
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -381,36 +378,36 @@ Language: en
 Title: "I've been reading a book 'Phrasal verbs are easy'"
 
 # Mood Application
-Use medium contrast, normal saturation, balanced visual weight. Warm, studious atmosphere. Comfortable and inviting.
+Use medium contrast with standard black-white separation. Studious and calm. The pleasure of reading.
 
 # Font Application
-Use warm hand-lettered typography with organic brush strokes. Friendly, personal feel reflecting the relationship with the podcast host and his book.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Scene type: A reading/study atmosphere with the book as narrative anchor
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: An open book at center with pages showing hand-lettered phrasal verbs: "pick out", "hold on", "run out", each in alternating soft coral and muted teal ink. Above the book, a small speech bubble contains a mini story in tiny sketchy text.
-- Layout: Book centered slightly below middle. Speech bubble rising above. An Anki card icon floats to the right connected by a dashed line. Gold bookmark ribbon trails from the spine. Title at the top.
-- Decorative: Delicate ornamental details along the book edges. Small pencil doodle marks in the margins. Faint podcast headphone icon in the far corner.
+- Main visual: A single open book at center drawn in pure black ink, pages spread wide. On the right page, a few hand-drawn lines of text with two phrasal verbs — "pick out" and "hold on" — underlined in dark gray.
+- Layout: Book dead center, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A thin bookmark ribbon at the top edge of the spine in dark gray. Nothing more.
 
 Color scheme:
-- Primary: Soft Coral #E8A598 and Muted Teal #5B8A8A alternating on phrasal verb text
-- Background: Warm Cream #F5F0E6
-- Accent: Gold #C9A962 on bookmark ribbon, Copper #B87333 on book spine
+- Primary: Pure Black #000000 for the book outline and spine
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the underlines and bookmark only
 
 Rendering notes:
-- Book pages with slightly curled edges drawn in organic lines
-- Phrasal verbs hand-lettered with different pen styles
-- Paper grain texture throughout
-- Light hatching shadow beneath the book
+- Book pages drawn with slightly organic, curving edges
+- Underlined text as simple thin horizontal strokes with a short underline beneath
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Scene: A study desk moment, the book as the center of learning
+- Minimal: One open book, two underlined words. Nothing else competes.
 
 Palette notes:
-- Elegant: Warm, refined study session aesthetic
+- Mono: Clean black on white, the reading moment distilled to its essence
 
 ---
 
@@ -545,10 +542,10 @@ Keywords: completion, achievement, phrasal verbs, Anki, improvement, reading, gr
 
 # Visual Design
 Cover theme: book completed
-Type: hero
-Palette: elegant
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
-Font: handwritten
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -558,36 +555,36 @@ Language: en
 Title: "I've finished reading 50 phrasal verbs book"
 
 # Mood Application
-Use medium contrast, normal saturation, balanced visual weight. Triumphant but warm. A personal achievement, not a grand spectacle.
+Use medium contrast with standard black-white separation. Quiet accomplishment. The closed book is its own celebration.
 
 # Font Application
-Use warm hand-lettered typography with organic brush strokes. The title should carry a sense of quiet pride and accomplishment.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Hero type: Large focal visual (60-70% area), celebratory composition
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A closed book held upright at center like a trophy, its cover showing a bold "50" in gold ink with copper accents. Surrounding the book, small completed Anki flashcards fan outward in an arc, each showing a phrasal verb in alternating soft coral and muted teal.
-- Layout: Book centered, flashcards arcing above it. Small checkmarks and stars floating above as delicate confetti. Title at the top.
-- Decorative: Gold ornamental border detail on the book cover. A podcast headphone icon tucked in the lower corner as a nod to Oliver. Subtle sparkle marks where flashcards fan out.
+- Main visual: A single closed book standing upright at center drawn in pure black ink. On the cover, a bold hand-drawn "50" in dark gray. The book stands like a small monument to completed work.
+- Layout: Book centered, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A thin dark gray shadow beneath the book. Nothing more.
 
 Color scheme:
-- Primary: Gold #C9A962 on the "50" and book details, Soft Coral #E8A598 on flashcard text
-- Background: Warm Cream #F5F0E6
-- Accent: Muted Teal #5B8A8A on alternating flashcards, Copper #B87333 on book spine
+- Primary: Pure Black #000000 for the book outline and spine
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the "50" and shadow only
 
 Rendering notes:
-- Book drawn with clean but organic lines, more polished than typical hand-drawn
-- Flashcards with slightly curled edges and variable positioning
-- Confetti marks as tiny simple shapes — stars, checks, dots
-- Paper grain throughout
+- Book drawn with clean, confident rectangular lines
+- "50" hand-lettered with bold strokes inside the cover area
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Hero: The completed book is the trophy at center stage
+- Minimal: One closed book, one number. The finish line is clear.
 
 Palette notes:
-- Elegant: Refined accomplishment, sophisticated celebration
+- Mono: Stark black on white, the achievement needs no color to be felt
 
 ---
 
@@ -604,8 +601,8 @@ Keywords: marksmanship, military, K2 rifle, shooting, training, improvement, arm
 
 # Visual Design
 Cover theme: precision target
-Type: scene
-Palette: dark
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
 Font: clean
 Text level: title-only
@@ -617,36 +614,36 @@ Language: en
 Title: "My marksmanship training"
 
 # Mood Application
-Use medium contrast with standard neon saturation against the dark field. Precise and focused, not aggressive. The control and discipline of the training range.
+Use medium contrast with standard black-white separation. Focused, controlled. The discipline of precision.
 
 # Font Application
-Use clean geometric sans-serif typography. Precise, sharp, military-appropriate. Uniform stroke weight with high readability.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Scene type: The training range atmosphere, tension and precision
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A target bullseye at center with 16 hit marks clustered near the center, drawn in glowing amber and cyan ink. The target rings glow faintly in electric purple. A stylized K2 rifle silhouette rests diagonally below the target in clean dark sketch lines.
-- Layout: Target centered in the upper half, rifle diagonal in the lower third. Spent casings as small geometric shapes scattered at the bottom. Title at the top.
-- Decorative: Subtle magenta accents on the rifle barrel. Atmospheric hatching fading into the dark background. A faint "16/20" score notation in thin white near the target edge.
+- Main visual: A single concentric-circle bullseye target at center drawn in pure black ink. Three small "x" marks cluster near the center ring in dark gray, suggesting accurate hits.
+- Layout: Target dead center, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A faint "16/20" notation beneath the target in small dark gray text. Nothing more.
 
 Color scheme:
-- Primary: Amber #F59E0B for hit marks, Cyan Blue #06B6D4 for target ring glow
-- Background: Deep Purple-Black #0A0A0A
-- Accent: Electric Purple #8B5CF6 on outer target rings, Magenta Pink #EC4899 on rifle details
+- Primary: Pure Black #000000 for the target rings
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the hit marks and score notation only
 
 Rendering notes:
-- Target rings drawn with compass-like precision but with hand-drawn imperfection
-- Hit marks as small concentrated clusters with slight scatter
-- Rifle as a clean silhouette with minimal internal detail
-- Atmospheric pencil hatching in the dark background
+- Target rings drawn with careful hand-drawn circles, slightly imperfect
+- Hit marks as small crossed lines clustered naturally
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Scene: The range as an environment of controlled tension
+- Minimal: One target, a few marks, a score. Precision in simplicity.
 
 Palette notes:
-- Dark: Military night-training atmosphere, focused precision lighting
+- Mono: Clean black rings on white, the hits are the only decoration
 
 ---
 
@@ -662,11 +659,11 @@ Content summary: An overnight snowboarding trip with military roommates. Attempt
 Keywords: snowboard, winter, trip, carving, mountain, military friends, adventure, injury
 
 # Visual Design
-Cover theme: mountain carve
-Type: scene
-Palette: elegant
+Cover theme: mountain board
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
-Font: handwritten
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -676,36 +673,36 @@ Language: en
 Title: "I went on a snowboard trip"
 
 # Mood Application
-Use medium contrast, normal saturation, balanced visual weight. Exhilarating but warm. The joy of the mountain, not the pain of falling.
+Use medium contrast with standard black-white separation. Light and free. The joy of motion on snow.
 
 # Font Application
-Use warm hand-lettered typography with organic brush strokes. The title should feel dynamic with a slight forward motion, like carving down a slope.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Scene type: Alpine atmosphere with motion and adventure
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A snowboard mid-carve at center, its edge cutting into a sketchy mountain slope in muted teal and soft coral shading. Snow spray kicks up behind the board in loose ink splatter marks. Mountain peaks in the background as simple geometric triangles with dusty rose shadows.
-- Layout: Board at center on a diagonal axis suggesting downward motion. Mountains in the upper third. Snowflake doodles scattered across the sky. Title at the top.
-- Decorative: Small protective gear icon in the far corner (a nod to the injuries). Faint group silhouette marks at the mountain base suggesting the 10 friends.
+- Main visual: A single snowboard at center drawn in pure black ink, angled slightly on a diagonal axis suggesting downward motion. Flat, essential shape — no bindings or detail beyond the board outline.
+- Layout: Snowboard centered on its diagonal, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: Three short parallel motion lines behind the board's trailing edge in dark gray. A single small asterisk-shaped snowflake nearby. Nothing more.
 
 Color scheme:
-- Primary: Muted Teal #5B8A8A for the slope and snow spray, Soft Coral #E8A598 for warm accents
-- Background: Warm Cream #F5F0E6 fading to white at the snowy top
-- Accent: Dusty Rose #D4A5A5 on mountain shadows, Gold #C9A962 on the board edge
+- Primary: Pure Black #000000 for the snowboard outline
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the motion lines and snowflake only
 
 Rendering notes:
-- Dynamic diagonal composition with visible motion in the stroke direction
-- Snow spray as loose ink splatters with slight smear
-- Mountains as simplified triangles with hand-drawn edges
-- Snowflakes as small asterisk-like doodles
+- Snowboard drawn as a clean elongated shape with slightly tapered ends
+- Motion lines as thin parallel strokes with natural hand-drawn quality
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Scene: The mountain slope as an environment of adventure and freedom
+- Minimal: One board in motion. The diagonal suggests the whole mountain.
 
 Palette notes:
-- Elegant: Refined winter palette, sophisticated but adventurous
+- Mono: Black board on white snow, maximum clarity, no decoration
 
 ---
 
@@ -721,11 +718,11 @@ Content summary: Returned from a 5-day vacation that included girlfriend's birth
 Keywords: vacation, return, birthday, Hangang, gaming, fantasy novel, nostalgia, army
 
 # Visual Design
-Cover theme: return journey
-Type: scene
-Palette: elegant
+Cover theme: return bag
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
-Font: handwritten
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -735,36 +732,36 @@ Language: en
 Title: "I came back from vacation"
 
 # Mood Application
-Use medium contrast, normal saturation, balanced visual weight. Nostalgic warmth of memories from a brief escape, with a gentle sense of return.
+Use medium contrast with standard black-white separation. Quiet warmth. The weight of a bag full of good memories.
 
 # Font Application
-Use warm hand-lettered typography with organic brush strokes. Gentle, reflective feel. Slightly relaxed letterforms.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Scene type: A narrative moment of unpacking memories
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A half-unpacked travel bag at center with objects spilling out: a small gift box with ribbon (birthday), a game controller, a novel with a fantasy sword on its cover, and a birthday candle. All sketched in soft coral and muted teal ink with gold accents.
-- Layout: Bag at center-left, objects spreading to the right. A curved arrow loops from outside the frame back toward the bag, suggesting return. A faint calendar showing "5 days" sketched in the background. Title at the top.
-- Decorative: A tiny Hangang river silhouette sketched as a thin wavy line in the far background. Small heart mark near the gift box.
+- Main visual: A single travel bag at center drawn in pure black ink, standing upright with handles at the top. A small luggage tag hanging from one handle in dark gray with a few sketched lines suggesting a destination label.
+- Layout: Bag dead center, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A thin dark gray shadow beneath the bag. Nothing more.
 
 Color scheme:
-- Primary: Soft Coral #E8A598 on the gift box and candle, Muted Teal #5B8A8A on the game controller
-- Background: Warm Cream #F5F0E6
-- Accent: Gold #C9A962 on ribbon and accents, Dusty Rose #D4A5A5 on the novel cover
+- Primary: Pure Black #000000 for the bag outline and handle
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the luggage tag and shadow only
 
 Rendering notes:
-- Objects drawn as recognizable simple shapes with organic lines
-- Travel bag with slightly rumpled, lived-in quality
-- Paper grain throughout
-- Light hatching shadow beneath the bag
+- Bag drawn with clean rectangular lines and a simple handle arch
+- Tag hanging naturally with a short string line
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Scene: The unpacked bag as a narrative device for the vacation story
+- Minimal: One bag, one tag. The return is implied.
 
 Palette notes:
-- Elegant: Warm, nostalgic, refined recollection
+- Mono: Black bag on white, the quiet simplicity of coming home
 
 ---
 
@@ -780,11 +777,11 @@ Content summary: Monthly review covering blog writing with ChatGPT correction, A
 Keywords: review, January, blog, Anki, Hollow Knight, English videos, phrasal verbs, growth, pride
 
 # Visual Design
-Cover theme: growth tree
-Type: metaphor
+Cover theme: month in review
+Type: minimal
 Palette: mono
 Rendering: hand-drawn
-Font: handwritten
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -794,36 +791,36 @@ Language: en
 Title: "January 2026, What have I done?"
 
 # Mood Application
-Use medium contrast with standard black-white separation. Balanced visual weight. The growth should feel organic and earned, not flashy.
+Use medium contrast with standard black-white separation. Reflective and honest. The calendar page as a record of time used.
 
 # Font Application
-Use warm hand-lettered typography with organic brush strokes. Personal, reflective feel. The question mark slightly larger and more expressive.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Metaphor type: A tree representing accumulated growth from diverse activities
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A large tree at center drawn in pure black ink. Its branches bear different fruits representing the month's activities: a blog post icon, an Anki card, a game controller (Hollow Knight), headphones (videos), and a book (phrasal verbs). Each fruit is a simple sketch in dark gray.
-- Layout: Tree centered, trunk grounded at the bottom third, branches spreading across the upper two-thirds. A few fallen leaves at the base suggest time passing. Maximum negative space behind the tree. Title at the top.
-- Decorative: Roots spreading into the bottom of the frame. One small bird perched on a branch (representing pride/excitement). Thin sketchy bark texture on the trunk.
+- Main visual: A single calendar page at center drawn in pure black ink. "JAN" printed boldly at the top, a simple grid of date cells below. Four dates circled in dark gray marking key moments of the month.
+- Layout: Calendar page dead center, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A thin pencil-drawn border around the calendar edge. Faint grid lines forming the date cells. Nothing more.
 
 Color scheme:
-- Primary: Pure Black #000000 for trunk and branches, Near Black #1F1F1F for fruits
+- Primary: Pure Black #000000 for the calendar outline and "JAN" label
 - Background: White #FFFFFF
-- Accent: Dark Gray #374151 for leaves and roots, one subtle warm gray on the bird
+- Accent: Dark Gray #374151 for the circled dates and grid lines only
 
 Rendering notes:
-- Tree drawn with strong, confident trunk lines and thinner branch strokes
-- Fruits as simple recognizable icon shapes
-- Paper grain on the white background
-- Variable line weight — thick trunk, thin branches, finest on leaves
+- Calendar drawn with clean rectangular lines and an even grid
+- Circles around dates as natural hand-drawn ovals
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Metaphor: The tree is January's growth, the fruits are what was cultivated
+- Minimal: One calendar page, a few circles. The month in one glance.
 
 Palette notes:
-- Mono: Stark, focused, letting the tree shape carry all the visual interest
+- Mono: Black grid on white, the circles are the only emphasis
 
 ---
 
@@ -839,11 +836,11 @@ Content summary: 400 days into military service with 212 remaining. Reflecting o
 Keywords: army, military, 400 days, discharge, routine, study habits, winter, time, reflection
 
 # Visual Design
-Cover theme: corridor to discharge
-Type: metaphor
-Palette: dark
+Cover theme: corridor doorway
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
-Font: handwritten
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -853,36 +850,36 @@ Language: en
 Title: "Life in the army"
 
 # Mood Application
-Use medium contrast with standard neon saturation. Contemplative atmosphere. The distant light at the end should feel genuinely hopeful, not dramatically cinematic.
+Use medium contrast with standard black-white separation. Contemplative and still. The threshold as a symbol of passage.
 
 # Font Application
-Use warm hand-lettered typography with organic brush strokes. Contemplative, steady letterforms. Even baseline suggesting the rhythm of routine.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Metaphor type: A corridor representing the passage of military service time
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A long straight corridor rendered in one-point perspective at center. Walls drawn in thin glowing cyan lines converging to a distant bright exit point in warm amber. Along the corridor walls, small tally marks scratched in electric purple ink, counting the days. A calendar page floats near the exit showing "212" in faint white.
-- Layout: Corridor centered with strong perspective lines drawing the eye to the distant exit. Tally marks on both walls. Title at the top. Atmospheric fog filling the middle distance.
-- Decorative: Subtle magenta glow reflected on the corridor floor. A small study desk silhouette visible in one of the corridor alcoves. Winter snowflake marks faintly visible on the ceiling.
+- Main visual: A single rectangular doorway outline at center drawn in pure black ink, open and framing empty white space within. Two uprights and a horizontal lintel — nothing inside the frame but white.
+- Layout: Doorway centered, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A thin dark gray shadow along one side of the doorframe. Nothing more.
 
 Color scheme:
-- Primary: Cyan Blue #06B6D4 for corridor walls, Amber #F59E0B for the distant exit light
-- Background: Deep Purple-Black #0A0A0A
-- Accent: Electric Purple #8B5CF6 for tally marks, Magenta Pink #EC4899 for floor reflection
+- Primary: Pure Black #000000 for the doorframe outline
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the shadow along the frame only
 
 Rendering notes:
-- Perspective lines drawn with deliberate precision but hand-drawn wobble
-- Tally marks scratched in rough, repetitive strokes
-- Atmospheric fog as layered pencil hatching between viewer and exit
-- Variable line weight — heavier near viewer, thinner toward the vanishing point
+- Doorframe drawn with clean vertical and horizontal strokes
+- Shadow as a simple parallel line beside one upright
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Metaphor: The corridor is military service, the distant light is discharge
+- Minimal: One open door. The 212 days remaining don't need to be counted here.
 
 Palette notes:
-- Dark: The institutional darkness of army life with genuine light at the end
+- Mono: Black frame on white, the empty interior is the point — freedom implied
 
 ---
 
@@ -898,11 +895,11 @@ Content summary: Ordered 5 English study books using ₩65,000 military welfare 
 Keywords: books, English, grammar, purchase, military welfare, study, Grammar Zone, excitement
 
 # Visual Design
-Cover theme: book collection
-Type: scene
-Palette: elegant
+Cover theme: five books
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
-Font: handwritten
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -912,36 +909,36 @@ Language: en
 Title: "I've bought 5 English books"
 
 # Mood Application
-Use medium contrast, normal saturation, balanced visual weight. Warm excitement of receiving new study materials. Inviting and eager.
+Use medium contrast with standard black-white separation. Quiet anticipation. The satisfaction of new study materials.
 
 # Font Application
-Use warm hand-lettered typography with organic brush strokes. Eager, slightly bouncy letterforms suggesting excitement.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Scene type: A book haul display with warm anticipation
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: Five books of varying sizes leaning against each other at center like dominoes, each spine showing a hand-lettered subject: Grammar Zone I, II, III, and a preposition book. The e-book represented as a glowing tablet shape beside them.
-- Layout: Books clustered at center, slightly fanned. A price tag showing "₩65,000" dangles from one in gold ink. A small military welfare stamp in the corner. Title at the top.
-- Decorative: Delicate ornamental line work framing the book cluster. Small sparkle marks near the new books. Faint desk surface with wood grain sketched beneath.
+- Main visual: Five book spines leaning slightly against each other at center drawn in pure black ink. Each spine is a different height. Together they form a simple cluster suggesting a collection without identifying any individual book.
+- Layout: Book cluster dead center, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A thin dark gray shadow beneath the books. Nothing more.
 
 Color scheme:
-- Primary: Soft Coral #E8A598 and Muted Teal #5B8A8A on alternating book spines
-- Background: Warm Cream #F5F0E6
-- Accent: Gold #C9A962 on price tag, Dusty Rose #D4A5A5 on the e-book glow, Copper #B87333 on ornamental frame
+- Primary: Pure Black #000000 for the book spine outlines
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the shadow and subtle spine separators only
 
 Rendering notes:
-- Books with slightly imperfect rectangular shapes and hand-drawn edges
-- Each spine a different width and height for variety
-- Paper grain texture throughout
-- Light hatching shadow beneath the book cluster
+- Each spine drawn as a thin rectangle with slightly different height
+- Books leaning naturally with subtle angles between them
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Scene: A display of new acquisitions, the desk as setting
+- Minimal: Five spines, one group. The number is the composition.
 
 Palette notes:
-- Elegant: Refined book-lover aesthetic, warm anticipation
+- Mono: Black spines on white, each unique height tells the story of five
 
 ---
 
@@ -957,11 +954,11 @@ Content summary: Playing Hollow Knight in English on Nintendo Switch for 3 weeks
 Keywords: Hollow Knight, gaming, English, atmosphere, underground, exploration, mood, BGM, dialogue
 
 # Visual Design
-Cover theme: underground expedition
-Type: scene
-Palette: dark
+Cover theme: nail silhouette
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
-Font: handwritten
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -971,36 +968,36 @@ Language: en
 Title: "My experience for playing Hollow Knight"
 
 # Mood Application
-Use medium contrast with standard neon saturation. Atmospheric and immersive. The darkness should feel inviting to explore, not threatening.
+Use medium contrast with standard black-white separation. Atmospheric and still. The weapon as a symbol of the journey begun.
 
 # Font Application
-Use warm hand-lettered typography with organic brush strokes. The title should have a slightly old-fashioned, storybook quality to match the game's mood.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Scene type: An atmospheric underground cavern capturing the game's mood
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A vast cavern rendered in atmospheric ink washes of deep purple and black. Bioluminescent mushrooms and ancient runes glow faintly in cyan and magenta along the walls. At center, a small abstract knight silhouette holds a glowing nail, its light casting electric purple shadows on the cave floor.
-- Layout: Cavern filling the full frame as an environment. Knight small at center-bottom, emphasizing the vastness. Glow sources scattered across the walls. Title at the top.
-- Decorative: Small speech bubbles with old-English style text fragments floating nearby, half-legible. Musical note symbols faintly sketched in the upper portion (for the BGM). Atmospheric fog filling the middle distance.
+- Main visual: A single nail sword held upright at center drawn in pure black ink. Elongated, slightly tapered — the iconic shape of the game's weapon in minimal form. No handle detail, just the essential silhouette.
+- Layout: Nail centered vertically, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A thin dark gray shadow at the base of the nail. Nothing more.
 
 Color scheme:
-- Primary: Cyan Blue #06B6D4 for bioluminescent glow, Electric Purple #8B5CF6 for shadows and runes
-- Background: Deep Purple-Black #0A0A0A with Rich Navy #1A1A2E washes
-- Accent: Magenta Pink #EC4899 on mushroom caps, Amber #F59E0B for the nail's glow
+- Primary: Pure Black #000000 for the nail silhouette
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the base shadow only
 
 Rendering notes:
-- Atmospheric ink wash layers building depth
-- Bioluminescent sources as soft glowing circles with radiating sketch lines
-- Knight as a simple geometric silhouette — abstract, not detailed
-- Pencil hatching fog creating depth between foreground and background
+- Nail drawn with two confident stroke lines forming the blade
+- Slight taper toward the tip rendered with variable line weight
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Scene: The cavern IS the experience — vast, atmospheric, immersive
+- Minimal: One nail, pure black. The underground world is off-screen.
 
 Palette notes:
-- Dark: The game's underground darkness with scattered points of beautiful light
+- Mono: Black silhouette on white, stark and simple as the game's own art direction
 
 ---
 
@@ -1016,11 +1013,11 @@ Content summary: Second overnight duty in the command control room. Boredom is t
 Keywords: overnight duty, military, night, boredom, command room, 1 AM, time, reflection, routine
 
 # Visual Design
-Cover theme: midnight stillness
-Type: scene
-Palette: dark
+Cover theme: midnight lamp
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
-Font: handwritten
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -1030,36 +1027,36 @@ Language: en
 Title: "I'm on the overnight duty"
 
 # Mood Application
-Use medium contrast with standard neon saturation. Serene and still, not tense. The quietness of a midnight watch where nothing happens.
+Use medium contrast with standard black-white separation. Still and quiet. The single light source as company in the dark.
 
 # Font Application
-Use warm hand-lettered typography with organic brush strokes. Calm, quiet letterforms with an even, steady baseline.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Scene type: The command room at midnight, atmospheric stillness
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A desk in the command control room at center rendered in thin cyan sketch lines. A single desk lamp casts a warm amber glow cone downward onto stacked paperwork and a book. Outside a window behind the desk, a night sky with stars as small ink dots and a crescent moon in faint white.
-- Layout: Desk centered in the lower half. Window and night sky in the upper half. A wall clock showing 1:00 AM in glowing electric purple to the right. Title at the top.
-- Decorative: Atmospheric darkness filling most of the frame with soft pencil-drawn shadows. A faint convenience store sign sketched in the far distance outside the window (the small dream of freedom).
+- Main visual: A single desk lamp at center drawn in pure black ink, its cone of light suggested by five thin radiating lines fanning downward in dark gray. Simple archetypal lamp shape — base, stem, shade.
+- Layout: Lamp dead center, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: Two thin parallel lines beneath the lamp suggesting the desk surface in dark gray. Nothing more.
 
 Color scheme:
-- Primary: Cyan Blue #06B6D4 for desk outlines, Amber #F59E0B for the lamp glow cone
-- Background: Deep Purple-Black #0A0A0A
-- Accent: Electric Purple #8B5CF6 on the clock, White #FFFFFF for stars and moon
+- Primary: Pure Black #000000 for the lamp outline
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the light cone lines and desk surface only
 
 Rendering notes:
-- Lamp glow rendered as a warm cone with soft edges
-- Stars as tiny ink dots with slight variation in size
-- Desk objects as silhouettes with just enough detail to be recognizable
-- Atmospheric darkness as heavy pencil shading filling the frame edges
+- Lamp drawn with clean geometric lines, slight hand-drawn imperfection
+- Light cone as thin diverging lines with consistent spacing
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Scene: The control room as a space of quiet isolation
+- Minimal: One lamp, one pool of light. The night shift in a single shape.
 
 Palette notes:
-- Dark: Midnight atmosphere with a single warm light source as the anchor
+- Mono: Black lamp on white, the negative space is the darkness it keeps at bay
 
 ---
 
@@ -1075,11 +1072,11 @@ Content summary: Completed Hollow Knight after ~60 hours without guides. Discove
 Keywords: Hollow Knight, victory, completion, exploration, 60 hours, Silk Song, gaming, genre-defining
 
 # Visual Design
-Cover theme: triumphant nail
-Type: hero
-Palette: dark
+Cover theme: nail in ground
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
-Font: display
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -1089,36 +1086,37 @@ Language: en
 Title: "I beat Hollow Knight"
 
 # Mood Application
-Use medium contrast with standard neon saturation. Triumphant and earned. The glow should feel like the culmination of 60 hours of exploration.
+Use medium contrast with standard black-white separation. Quiet, earned triumph. The nail planted is the journey's full stop.
 
 # Font Application
-Use bold decorative display typography. Heavy, expressive letterforms. The title should feel like a final boss defeated — bold but with respect for the journey.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Hero type: Large focal visual (60-70% area), triumphant completion
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A nail sword driven into cracked ground at center, radiating amber and cyan light rays as bold sketch lines extending outward. Dream particles in electric purple and magenta scatter upward like ascending embers from the impact point. Broken mask fragments lie around the base as dark ink silhouettes.
-- Layout: Nail centered, light rays extending to frame edges. The underground cavern ceiling above dissolves into atmospheric fog and glowing ancient symbols. Title at the top in heavy display font.
-- Decorative: A faint "60h" notation etched into the cracked ground. Silk Song thread patterns barely visible in the upper fog. Small void particles rising.
+- Main visual: A single nail sword driven vertically into a ground line at center drawn in pure black ink. The tip is buried in the ground, handle pointing upward. A single diagonal crack in the ground in dark gray extends from the impact point.
+- Layout: Nail centered with a minimal horizontal ground line at the lower third. 60%+ whitespace above. Title small at the top. Nothing else competing for attention.
+- Decorative: A thin dark gray shadow at the nail's base. Nothing more.
 
 Color scheme:
-- Primary: Amber #F59E0B for the nail's radiant glow, Cyan Blue #06B6D4 for light rays
-- Background: Deep Purple-Black #0A0A0A
-- Accent: Electric Purple #8B5CF6 for dream particles, Magenta Pink #EC4899 for mask fragment edges
+- Primary: Pure Black #000000 for the nail and ground line
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the crack and base shadow only
 
 Rendering notes:
-- Bold, heavy sketch lines on the nail with confident stroke weight
-- Light rays as strong radiating lines with slight hand tremor
-- Dream particles as small scattered circles with glow
-- Cracked ground with irregular hand-drawn fracture patterns
+- Nail drawn with confident parallel lines, slightly tapering at the buried tip
+- Ground line as a single horizontal stroke with natural hand-drawn weight
+- Crack as one clean diagonal line extending from the impact
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Hero: The nail is the trophy, the cracked ground is the journey's end
+- Minimal: One nail, one crack, one line of ground. Sixty hours in a single image.
 
 Palette notes:
-- Dark: The game's darkness with the triumphant light of completion
+- Mono: Black on white, as stark and honest as the 60-hour journey itself
 
 ---
 
@@ -1134,9 +1132,9 @@ Content summary: Participated in an AI-focused development hackathon partnered w
 Keywords: hackathon, AI, MuseNote, development, Supabase, Next.js, Chrome Extension, OpenAI, product
 
 # Visual Design
-Cover theme: system architecture
-Type: hero
-Palette: dark
+Cover theme: connected system
+Type: minimal
+Palette: mono
 Rendering: hand-drawn
 Font: clean
 Text level: title-only
@@ -1148,36 +1146,37 @@ Language: en
 Title: "I've done a hackathon"
 
 # Mood Application
-Use medium contrast with standard neon saturation. Technical and accomplished. The satisfaction of shipping a complete product.
+Use medium contrast with standard black-white separation. Focused and accomplished. The satisfaction of a shipped product.
 
 # Font Application
-Use clean geometric sans-serif typography. Modern, precise, tech-appropriate. A subtle cyan glow outline for tech atmosphere.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Hero type: Large focal visual showing the three interconnected systems
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: Three system diagrams at center: a Supabase database cylinder, a Next.js web frame, and a Chrome Extension puzzle piece. All drawn in glowing cyan sketch lines, connected by electric purple data flow arrows. The product name "MuseNote" is hand-lettered small in amber near the center.
-- Layout: Three systems in a triangular arrangement at center. Data flow arrows connecting them. Floating UI wireframe sketches and waveform patterns surrounding them. A faint "10 days" counter in the corner. Title at the top.
-- Decorative: YouTube play button icon integrated into the wireframes. Headphone icon near the waveform patterns. Small AI chip symbol at the triangle's center.
+- Main visual: A single open laptop at center drawn in pure black ink. From the screen, three thin connection lines extend outward to three small circular nodes in dark gray, forming a minimal network diagram representing the three built systems.
+- Layout: Laptop centered, nodes at short distances from the screen edge. 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: A thin dark gray shadow beneath the laptop. Nothing more.
 
 Color scheme:
-- Primary: Cyan Blue #06B6D4 for system diagrams, Electric Purple #8B5CF6 for data flow arrows
-- Background: Deep Purple-Black #0A0A0A
-- Accent: Amber #F59E0B for "MuseNote" text and highlights, Magenta Pink #EC4899 on the AI chip
+- Primary: Pure Black #000000 for the laptop outline
+- Background: White #FFFFFF
+- Accent: Dark Gray #374151 for the connection lines and nodes only
 
 Rendering notes:
-- System diagrams with cleaner-than-usual hand-drawn lines (tech precision)
-- Data flow arrows with dashed animation-style strokes
-- Wireframe sketches as loose, rapid sketches surrounding the main systems
-- Atmospheric glow around the central triangle
+- Laptop drawn with clean rectangular lines and a simple hinge
+- Connection lines thin and straight with natural hand-drawn wobble
+- Nodes as small clean circles
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Hero: The three-system architecture as the hero visual representing the product
+- Minimal: One laptop, three nodes. The whole system in one compact image.
 
 Palette notes:
-- Dark: Late-night coding atmosphere, tech product showcase
+- Mono: Black laptop on white, the connections are the only complexity
 
 ---
 
@@ -1193,11 +1192,11 @@ Content summary: A soldier's raw self-reflection on exhaustion, stagnation, and 
 Keywords: introspection, exhaustion, military, self-doubt, mental fog, ambition, confinement, reflection
 
 # Visual Design
-Cover theme: fractured self-reflection
-Type: metaphor
+Cover theme: cracked mirror
+Type: minimal
 Palette: mono
 Rendering: hand-drawn
-Font: handwritten
+Font: clean
 Text level: title-only
 Mood: balanced
 Aspect ratio: 16:9
@@ -1207,34 +1206,33 @@ Language: en
 Title: "Have I done good in Feburary"
 
 # Mood Application
-Use medium contrast with standard black-white separation. Balanced weight but emotionally charged. The sparseness should feel like honest introspection, not emptiness.
+Use medium contrast with standard black-white separation. Honest and spare. The emptiness is the answer the mirror gives.
 
 # Font Application
-Use warm hand-lettered typography with organic brush strokes. The title should feel like it was written in a personal journal — slightly unsteady baseline, natural ink pressure variation. Raw and honest.
+Use clean geometric sans-serif typography. Precise, minimal, functional. Uniform stroke weight.
 
 # Composition
 Type composition:
-- Metaphor type: A concrete object representing fragmented self-examination
+- Minimal type: Single focal element, generous whitespace (60%+), essential shapes only
 
 Visual composition:
-- Main visual: A single mirror frame at center drawn in pure black ink. Instead of a reflection, the mirror surface is filled with scattered ink marks, half-formed words, and question marks in dark gray — suggesting fragmented self-examination. A thin crack runs diagonally through the mirror glass.
-- Layout: Mirror centered, occupying 50% of the frame. Below the mirror, a small open journal with blank pages rests on a surface. Maximum negative space surrounding the scene. Title at the top.
-- Decorative: The crack in the mirror as the single dramatic element. Ink marks inside the mirror fading from dark to light from center outward. Nothing else — the emptiness is the decoration.
+- Main visual: A single rectangular mirror frame at center drawn in pure black ink. The mirror surface inside is plain white — blank, showing nothing. A single diagonal crack runs across the glass in dark gray.
+- Layout: Mirror frame centered, 60%+ whitespace. Title small at the top. Nothing else competing for attention.
+- Decorative: The crack as the only element inside the frame. Nothing more.
 
 Color scheme:
-- Primary: Pure Black #000000 for the mirror frame and crack, Near Black #1F1F1F for the ink marks
+- Primary: Pure Black #000000 for the mirror frame
 - Background: White #FFFFFF
-- Accent: Dark Gray #374151 for the question marks and journal, one faint warm gray on the journal pages
+- Accent: Dark Gray #374151 for the diagonal crack only
 
 Rendering notes:
-- Mirror frame with bold, confident line weight
-- Ink marks inside the mirror with varied, chaotic strokes
-- The crack as a single clean diagonal line — precise amid chaos
-- Paper grain on the white background
-- The journal drawn with light, hesitant lines — contrast to the bold frame
+- Mirror frame drawn with bold, clean rectangular lines
+- Crack as a single confident diagonal stroke
+- Paper grain texture on the white background
+- Flat composition, no depth
 
 Type notes:
-- Metaphor: The cracked mirror is self-reflection that doesn't show a clear answer
+- Minimal: One frame, one crack, no reflection. The question mark is the composition.
 
 Palette notes:
-- Mono: Stark black-white contrast, maximum negative space, emotional resonance through restraint
+- Mono: Stark black frame on white, the blank mirror is the most honest answer
