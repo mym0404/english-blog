@@ -78,6 +78,33 @@ export const generate = ({
           objectFit: "cover",
         }}
       />
+      {teaser ? (
+        <>
+          <img
+            alt={"teaser"}
+            src={teaser}
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+            }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              backgroundImage:
+                "linear-gradient(to bottom right, rgba(0,0,0,0.92) 25%, rgba(0,0,0,0.6) 55%, rgba(0,0,0,0.15) 100%)",
+            }}
+          />
+        </>
+      ) : null}
       <div
         style={{
           display: "flex",
@@ -94,7 +121,6 @@ export const generate = ({
             fontWeight: 700,
             fontSize: "48px",
             lineHeight: "1.1",
-            marginRight: teaser ? "240px" : "0",
           }}
         >
           {title}
@@ -106,31 +132,12 @@ export const generate = ({
               color: "rgba(240,240,240,0.7)",
               marginTop: "24px",
               marginBottom: "0",
-              marginRight: teaser ? "240px" : "0",
             }}
           >
             {description}
           </p>
         ) : null}
       </div>
-      {teaser ? (
-        <img
-          alt={"teaser"}
-          src={teaser}
-          style={{
-            position: "absolute",
-            top: 64,
-            right: 64,
-            width: "200px",
-            height: "200px",
-            objectFit: "cover",
-            background: "black",
-            borderWidth: 4,
-            borderRadius: 999,
-            borderColor: "rgba(100, 100, 100, 0.8)",
-          }}
-        />
-      ) : null}
       <div
         style={{
           position: "absolute",
