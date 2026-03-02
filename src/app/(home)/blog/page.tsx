@@ -1,4 +1,5 @@
 import path from "node:path";
+import Image from "next/image";
 import Link from "next/link";
 import { blog } from "@/lib/source";
 
@@ -34,15 +35,20 @@ export default async function BlogIndex() {
                   "absolute bottom-0 right-0 w-48 h-27 pointer-events-none"
                 }
                 style={{
-                  backgroundImage: `url(${post.data.teaser})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
                   maskImage:
                     "linear-gradient(to top left, rgba(0,0,0,0.55) 0%, transparent 70%)",
                   WebkitMaskImage:
                     "linear-gradient(to top left, rgba(0,0,0,0.55) 0%, transparent 70%)",
                 }}
-              />
+              >
+                <Image
+                  src={post.data.teaser}
+                  alt={""}
+                  fill
+                  sizes={"192px"}
+                  className={"object-cover"}
+                />
+              </div>
             )}
             <div
               className={

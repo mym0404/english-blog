@@ -141,13 +141,16 @@ export const generate = ({
       <div
         style={{
           position: "absolute",
-          right: 48,
+          right: 0,
           bottom: 0,
           display: "flex",
           flexDirection: "row",
           alignItems: "center",
-          marginTop: "auto",
           color: primaryTextColor,
+          backgroundImage:
+            "linear-gradient(135deg, transparent 0%, transparent 30%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.55) 100%)",
+          borderTopLeftRadius: "24px",
+          padding: "12px 24px 12px 28px",
         }}
       >
         <img
@@ -170,7 +173,7 @@ export const generate = ({
           <span
             style={{
               fontSize: "20px",
-              opacity: 0.5,
+              fontWeight: 700,
             }}
           >
             나의

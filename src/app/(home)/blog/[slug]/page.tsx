@@ -12,6 +12,22 @@ export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
 
   const MDX = page.data.body;
 
+  const sortedPosts = blog
+    .getPages()
+    .sort((a, b) => {
+      const dateA = a.data.date ? a.data.date.getTime() : 0;
+      const dateB = b.data.date ? b.data.date.getTime() : 0;
+      return dateB - dateA;
+    })
+    .filter((p) => path.basename(p.path).charAt(0) !== "-");
+
+  const currentIndex = sortedPosts.findIndex((p) => p.url === page.url);
+  const newerPost = currentIndex > 0 ? sortedPosts[currentIndex - 1] : null;
+  const olderPost =
+    currentIndex < sortedPosts.length - 1
+      ? sortedPosts[currentIndex + 1]
+      : null;
+
   return (
     <main className={"mx-auto w-full max-w-3xl px-6 py-10"}>
       <Link
@@ -70,6 +86,45 @@ export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
       <article className={"prose prose-fd max-w-none article"}>
         <MDX components={getMDXComponents({})} />
       </article>
+
+      {(olderPost || newerPost) && (
+        <nav className={"grid grid-cols-2 gap-4 mt-16 pt-8 border-t border-fd-border"}>
+          {olderPost ? (
+            <Link
+              href={olderPost.url}
+              className={
+                "group flex flex-col gap-2 rounded-xl border border-fd-border p-4 transition-all hover:border-fd-primary/30 hover:shadow-md"
+              }
+            >
+              <span className={"text-xs text-fd-muted-foreground"}>
+                ← Older
+              </span>
+              <span className={"text-sm font-medium group-hover:text-fd-primary transition-colors line-clamp-2"}>
+                {olderPost.data.title}
+              </span>
+            </Link>
+          ) : (
+            <div />
+          )}
+          {newerPost ? (
+            <Link
+              href={newerPost.url}
+              className={
+                "group flex flex-col items-end gap-2 rounded-xl border border-fd-border p-4 transition-all hover:border-fd-primary/30 hover:shadow-md"
+              }
+            >
+              <span className={"text-xs text-fd-muted-foreground"}>
+                Newer →
+              </span>
+              <span className={"text-sm font-medium text-right group-hover:text-fd-primary transition-colors line-clamp-2"}>
+                {newerPost.data.title}
+              </span>
+            </Link>
+          ) : (
+            <div />
+          )}
+        </nav>
+      )}
     </main>
   );
 }
