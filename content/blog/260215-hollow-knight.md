@@ -6,7 +6,7 @@ tags:
   - Daily
 teaser: https://cdn.jsdelivr.net/gh/mym0404/image-archive/20260302123253134.png
 ---
-![[Pasted image 20260302123242.png]]
+![[20260302_124529.png]]
 
 Recently, I heard Hollow Knight is not a game but a genre in itself. Before I played it, I didn't know what that mean. After I beat it an hour ago, I found out why.
 
