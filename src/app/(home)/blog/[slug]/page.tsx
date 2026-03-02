@@ -88,7 +88,11 @@ export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
       </article>
 
       {(olderPost || newerPost) && (
-        <nav className={"grid grid-cols-2 gap-4 mt-16 pt-8 border-t border-fd-border"}>
+        <nav
+          className={
+            "grid grid-cols-2 gap-4 mt-16 pt-8 border-t border-fd-border"
+          }
+        >
           {olderPost ? (
             <Link
               href={olderPost.url}
@@ -99,7 +103,11 @@ export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
               <span className={"text-xs text-fd-muted-foreground"}>
                 ← Older
               </span>
-              <span className={"text-sm font-medium group-hover:text-fd-primary transition-colors line-clamp-2"}>
+              <span
+                className={
+                  "text-sm font-medium group-hover:text-fd-primary transition-colors line-clamp-2"
+                }
+              >
                 {olderPost.data.title}
               </span>
             </Link>
@@ -116,7 +124,11 @@ export default async function BlogPost(props: PageProps<"/blog/[slug]">) {
               <span className={"text-xs text-fd-muted-foreground"}>
                 Newer →
               </span>
-              <span className={"text-sm font-medium text-right group-hover:text-fd-primary transition-colors line-clamp-2"}>
+              <span
+                className={
+                  "text-sm font-medium text-right group-hover:text-fd-primary transition-colors line-clamp-2"
+                }
+              >
                 {newerPost.data.title}
               </span>
             </Link>

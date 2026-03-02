@@ -3,5 +3,13 @@
   "description": "Building blocks for English",
   "icon": "NotepadText",
   "root": true,
-  "pages": ["index", "---Grammar---", "subjunctive-1", "subjunctive-2", "relative-clause", "perception-sensory-verbs", "it-cleft"]
+  "pages": [
+    "index",
+    "---Grammar---",
+    "subjunctive-1",
+    "subjunctive-2",
+    "relative-clause",
+    "perception-sensory-verbs",
+    "it-cleft"
+  ]
 }
