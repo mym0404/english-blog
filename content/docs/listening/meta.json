@@ -3,11 +3,5 @@
   "description": "Practice makes perfect",
   "root": true,
   "icon": "Headset",
-  "pages": [
-    "index",
-    "260103-ted-ed-1-mistletoe",
-    "260112-ted-why-you-feel-stuck",
-    "260120-ted-3-tips-on-how-to-study-effectively",
-    "260123-ted-why-is-being-scared-so-fun"
-  ]
+  "pages": ["index", "260103-ted-ed-1-mistletoe", "260112-ted-why-you-feel-stuck", "260120-ted-3-tips-on-how-to-study-effectively", "260123-ted-why-is-being-scared-so-fun"]
 }
