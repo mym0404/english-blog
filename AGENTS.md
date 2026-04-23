@@ -7,17 +7,16 @@
 - Stack: Next.js 16 App Router, React 19, TypeScript, Tailwind CSS v4, Fumadocs, Zod, Biome.
 - Package manager: `pnpm`.
 - Main code: `src/`.
-- Main content: `content/blog`, `content/docs`, `content/assets`.
+- Main content: `content/docs/blog`, `content/docs`, `content/assets`.
 - MDX collection rules live in `source.config.ts`.
 ## Directory Map
 - `src/app`: App Router pages, layouts, route handlers, OG image routes.
 - `src/components`: reusable UI and MDX support components.
 - `src/lib`: shared loaders, layout helpers, and content utilities.
-- `content/blog`: blog posts in `.md` or `.mdx`.
+- `content/docs/blog`: blog posts in `.md` or `.mdx`.
 - `content/docs`: study-note content.
 - `content/assets`: embedded media and content templates.
 - `content/assets/images`: blog/doc embedded images.
-- `infographic/prompts`: checked-in infographic prompt files.
 - `public/images`: site-level static images.
 - `.baoyu-skills/baoyu-cover-image/EXTEND.md`: existing blog-image preference file.
 ## Commands
@@ -29,8 +28,6 @@
 - Lint: `pnpm lint`
 - Format: `pnpm format`
 - Normal verification: `pnpm run t`
-- Pull content from Obsidian: `pnpm sync`
-- Push content back to Obsidian: `pnpm sync:up`
 ## Validation Details
 - `pnpm types:check` runs `fumadocs-mdx && next typegen && tsc --noEmit`.
 - `pnpm lint` runs `biome check`.
@@ -87,7 +84,7 @@
 - Log recoverable external failures only when existing code already does so.
 - Never delete or silently rewrite user content to hide an error.
 ## Content and MDX
-- Blog and docs content are authored in `content/blog` and `content/docs`.
+- Blog and docs content are authored in `content/docs/blog` and `content/docs`.
 - Obsidian-style embeds, wiki links, and callouts are supported through `remark-obsidian-mdx`.
 - Embedded assets belong in `content/assets`, usually `content/assets/images`.
 - Content assets are served from `/assets/...` by `src/app/assets/[...path]/route.ts`.
@@ -107,12 +104,14 @@
 - `image-prompts.md` exists but is currently empty; do not assume it drives automation.
 ## Infographic Workflow
 - Use the `baoyu-infographic` skill when a blog image should be an infographic or structured visual summary.
-- Keep checked-in prompt sources in `infographic/prompts/`.
-- Existing examples: `infographic/prompts/hollow-knight-beat.md`, `infographic/prompts/february-2026-review.md`.
-- Follow the established prompt shape: image specs, core principles, layout guidelines, style guidelines, content blocks, and final text labels.
-- The repo currently stores prompt files, not generated infographic outputs.
+- When the user invokes `baoyu-infographic`, return the final infographic prompt directly in the chat unless the user explicitly asks to save it as a file.
+- Do not create or keep checked-in prompt files under `infographic/prompts/` by default.
+- Follow the established prompt shape in the chat output: image specs, core principles, layout guidelines, style guidelines, content blocks, and final text labels.
 - For monthly reviews and other overview posts, start by checking whether `bento-grid` fits.
 - For narrative posts, check `winding-roadmap` before inventing a new structure.
+- If the user says the input is their recent blog posts, inspect `content/docs/blog` first and use `content/blog` only as a fallback path when needed.
+- For "recent blog posts", collect the recent blog posts whose frontmatter has no `teaser`.
+- If the user pastes source text directly in the chat, use that pasted text as the sole infographic input and preserve it faithfully.
 ## Infographic Skill Options
 - Base usage: `/baoyu-infographic path/to/content.md`
 - Available flags: `--layout <layout>`, `--style <style>`, `--aspect landscape|portrait|square`, `--lang <language>`.
@@ -124,11 +123,8 @@
 - Current defaults are `preferred_layout: null`, `preferred_style: null`, `default_aspect: landscape`, and `language: en`.
 - `null` for layout/style means agents should choose them to fit the article instead of forcing one default pair.
 - If you want to change those defaults later, ask the user before editing the file.
-## Sync Scripts
-- `pnpm sync` and `pnpm sync:up` move only `docs/***`, `blog/***`, and `assets/***`.
-- Be careful when moving files under `content/`; those paths participate in sync.
 ## Agent Rule Files
-- This repo already has `AGENTS.md` and `CLAUDE.md`.
+- This repo uses `AGENTS.md` as the only agent rule file in the root.
 - No `.cursor/rules/`, `.cursorrules`, or `.github/copilot-instructions.md` were found.
 - If those files appear later, fold their rules into this guide and note conflicts explicitly.
 ## Working Style for Agents
