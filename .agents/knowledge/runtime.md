@@ -16,12 +16,14 @@
 - Blog posts whose basename starts with `-` are hidden from the blog index and direct post routes.
 - Blog and docs pages generate OG image URLs through `src/lib/source.ts` and the `src/app/og/**` routes.
 - Obsidian-style wiki links, embeds, and callouts are supported through `remark-obsidian-mdx` in `source.config.ts`.
+- Files under `content/assets` are served through `src/app/assets/[...path]/route.ts` at `/assets/...`.
 
 ## Sync Flow
 - Local pull from Obsidian/iCloud into the repo runs through `scripts/sync.ts`.
 - Local push from the repo back to Obsidian/iCloud runs through `scripts/sync-up.ts`.
 - Local sync commands are exposed as `pnpm sync` and `pnpm sync:up`, but both run Bun scripts and depend on local `rsync`.
 - GitHub Actions sync uses `.github/workflows/sync.yml` with `rclone`.
-- GitHub Actions sync depends on the `RCLONE_CONF` and `RCLONE_REMOTE_NAME` secrets.
-- GitHub Actions pulls from `REMOTE_NAME:Obsidian/english` into the repo `content` directory.
+- GitHub Actions sync depends on the `RCLONE_CONF` secret; `RCLONE_REMOTE_NAME` is optional and defaults to `iclouddrive`.
+- GitHub Actions runs on `workflow_dispatch` and the hourly `0 * * * *` schedule.
+- GitHub Actions pulls from `${RCLONE_REMOTE_NAME:-iclouddrive}:Obsidian/english` into the repo `content` directory.
 - Sync paths are rooted at the Obsidian vault top level: `blog/`, `docs/`, and `assets/`.

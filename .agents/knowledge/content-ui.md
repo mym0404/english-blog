@@ -17,6 +17,13 @@
 - In-post images belong in `content/assets/images`.
 - In-post references use Obsidian embed syntax such as `![[260203-january-2026-review-1.png]]`.
 - `public/images` is for site-level assets, not ordinary post images.
+- Blog `teaser` frontmatter can point at a remote image URL and is used by blog cards and blog OG images.
+
+## Generated Visuals
+- Use `baoyu-cover-image` for article cover images and `baoyu-infographic` for infographics.
+- Cover image and infographic requests expect direct GPT image generation for bitmap output.
+- Do not replace these requests with handcrafted SVG, ImageMagick or `magick` composition, HTML/CSS capture, or script-generated placeholder images unless the user explicitly asks for that workflow.
+- If a generated visual must be kept in the site, store the accepted bitmap under `content/assets/images` and reference it from MDX or `teaser` frontmatter as needed.
 
 ## UI Rules
 - Preserve the current home-page identity: animated terminal block, floating alphabet background, and small set of primary navigation actions.
@@ -25,6 +32,5 @@
 - Do not surface implementation instructions, sync mechanics, or agent-facing rules in visible UI copy.
 
 ## Infographic Notes
-- Use the `baoyu-infographic` skill when a blog image should become an infographic or structured visual summary.
 - For recent blog post collection, inspect `content/blog` directly.
 - For monthly review style posts, check whether `bento-grid` fits before choosing a custom structure.

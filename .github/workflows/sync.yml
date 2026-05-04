@@ -3,7 +3,7 @@ name: Sync iCloud Obsidian Content
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *" # 매일 03:00 UTC (KST 12:00)
+    - cron: "0 * * * *" # Hourly
 
 permissions:
   contents: write

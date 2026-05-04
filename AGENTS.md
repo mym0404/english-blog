@@ -24,10 +24,10 @@
 - UI surface exists.
 - Preserve the current split: animated home hero, content-first docs pages, and minimal blog index/post layouts.
 - Prefer existing Fumadocs and Tailwind patterns over introducing a new visual system during routine work.
+- Cover image and infographic requests expect direct GPT image generation for bitmap output; do not substitute SVG, ImageMagick, or hand-built composition workflows unless explicitly requested.
 
 ## Knowledge Router
 - Evergreen repo knowledge lives under `.agents/knowledge`.
-- Start here: [`.agents/knowledge/README.md`](.agents/knowledge/README.md)
 - Main routes:
   - Runtime and content flow: [`.agents/knowledge/runtime.md`](.agents/knowledge/runtime.md)
   - Verification and sync: [`.agents/knowledge/verification.md`](.agents/knowledge/verification.md)
