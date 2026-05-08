@@ -26,9 +26,9 @@ Use a winding roadmap from left to right, with 7 milestone cards along a curved 
 - Labels: "first and last leave in May", "schedule update"
 - Visual: small calendar with 3 days highlighted.
 
-2. "Nothing special"
-- Labels: "home", "good food", "desk comfort"
-- Visual: cozy desk, meal bowl, home window.
+2. "Home & date time"
+- Labels: "girlfriend", "good food", "desk comfort"
+- Visual: cozy desk, meal bowl, home window, and a warm date-time symbol such as two cups or two simplified cartoon silhouettes. No realistic faces.
 
 3. "Overwatch matches"
 - Labels: "got the hang of it again"
@@ -52,8 +52,8 @@ Use a winding roadmap from left to right, with 7 milestone cards along a curved 
 
 ## Text Requirements
 
-All visible text should be English. Use the exact title: "Back From a 3-Day Leave". Make these key labels readable: "3-day leave", "Train accident", "cracked iPad", "Compensation", "120 days left". Avoid paragraphs and tiny text.
+All visible text should be English. Use the exact title: "Back From a 3-Day Leave". Make these key labels readable: "3-day leave", "Home & date time", "Train accident", "cracked iPad", "Compensation", "120 days left". Avoid paragraphs and tiny text.
 
 ## Mood
 
-Personal diary tone: short leave, ordinary comfort, sudden accident, awkward compensation, repair plan, and tired countdown to discharge. The image should feel warm and slightly stressed, not dramatic or dark.
+Personal diary tone: short leave, home and girlfriend time, ordinary comfort, sudden accident, awkward compensation, repair plan, and tired countdown to discharge. The image should feel warm and slightly stressed, not dramatic or dark.

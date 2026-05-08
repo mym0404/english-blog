@@ -1,7 +1,7 @@
 # Back From a 3-Day Leave
 
 ## Overview
-This infographic turns the source post into a short journey: leave, home comfort, game time, train accident, compensation, repair plan, and discharge countdown.
+This infographic turns the source post into a short journey: leave, home comfort, date time, game time, train accident, compensation, repair plan, and discharge countdown.
 
 ## Learning Objectives
 The viewer will understand:
@@ -32,21 +32,22 @@ The viewer will understand:
 
 ---
 
-## Section 2: Familiar Home Time
+## Section 2: Home & Date Time
 
-**Key Concept**: The leave was ordinary but comfortable.
+**Key Concept**: The leave was ordinary, comfortable, and included time with a girlfriend.
 
 **Content**:
 - "Going home, eating good food, or feeling comfortable in front of my desk."
+- "met my girlfriend and hung out"
 
 **Visual Element**:
 - Type: cozy desk icon
-- Subject: desk, meal bowl, home window
+- Subject: desk, meal bowl, home window, two cups or two simple date-time silhouettes
 - Treatment: warm hand-drawn vignette
 
 **Text Labels**:
-- Headline: "Nothing special"
-- Labels: "home", "good food", "desk comfort"
+- Headline: "Home & date time"
+- Labels: "girlfriend", "good food", "desk comfort"
 
 ---
 
@@ -177,5 +178,6 @@ The viewer will understand:
 
 ### Other Requirements
 - Use GPT image generation model for the final image.
+- Include the girlfriend/date-time content as one visible milestone.
 - Do not include real personal phone numbers.
 - Do not use official game logos.

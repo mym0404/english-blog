@@ -9,7 +9,7 @@ user_language: "ko"
 ---
 
 ## Main Topic
-A personal reflection about returning from a short leave, spending quiet time at home, having a train accident damage an iPad, arranging compensation, and counting down to discharge.
+A personal reflection about returning from a short leave, spending quiet time at home and with a girlfriend, having a train accident damage an iPad, arranging compensation, and counting down to discharge.
 
 ## Learning Objectives
 After viewing this infographic, the viewer should understand:
@@ -24,7 +24,7 @@ After viewing this infographic, the viewer should understand:
 
 ## Content Type Analysis
 - **Data Structure**: A chronological journey with a sudden incident and resolution.
-- **Key Relationships**: Short leave → return trip → damaged iPad → compensation → repair plan → discharge countdown.
+- **Key Relationships**: Short leave → home and date time → return trip → damaged iPad → compensation → repair plan → discharge countdown.
 - **Visual Opportunities**: Show a winding path, milestone cards, a train shelf with a falling tumbler, a cracked tablet, compensation/payment, post office/repair, and a countdown badge.
 
 ## Key Data Points (Verbatim)
@@ -33,6 +33,7 @@ After viewing this infographic, the viewer should understand:
 - "last week of May"
 - "parents' absence"
 - "I spent most of my time playing Overwatch during leave."
+- "met my girlfriend and hung out"
 - "On the train, a woman next to me tried to take down her bag from the top shelf and dropped her tumbler onto my desk."
 - "my iPad was sitting on the mini table"
 - "The tumbler ruthlessly broke the front display of my iPad"
@@ -51,6 +52,7 @@ After viewing this infographic, the viewer should understand:
 - Use `baoyu-infographic`.
 - Generate the final image with the GPT image generation model.
 - Keep the source content in English.
+- Include that the author met his girlfriend and hung out during leave.
 
 ## Recommended Combinations
 1. **winding-roadmap + craft-handmade** (Recommended): Best fit for a leave-return-accident-resolution journey.
