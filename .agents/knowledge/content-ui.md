@@ -21,7 +21,10 @@
 
 ## Generated Visuals
 - Use `baoyu-cover-image` for article cover images and `baoyu-infographic` for infographics.
-- Cover image and infographic requests expect direct GPT image generation for bitmap output.
+- Cover image and infographic requests expect exactly one quick direct GPT image generation result by default.
+- Post generated cover images and infographics in chat only; do not leave repository artifacts unless the user explicitly asks to save or wire the image into the site.
+- Do not create `cover-image/`, `infographic/`, prompt files, analysis files, structured-content files, copied source files, refs, SVGs, ImageMagick outputs, or other sidecar files for routine generated-visual requests.
+- Do not present multiple style options for routine generated-visual requests; infer one suitable style from the content and project preferences, then generate it.
 - Do not replace these requests with handcrafted SVG, ImageMagick or `magick` composition, HTML/CSS capture, or script-generated placeholder images unless the user explicitly asks for that workflow.
 - If a generated visual must be kept in the site, store the accepted bitmap under `content/assets/images` and reference it from MDX or `teaser` frontmatter as needed.
 
