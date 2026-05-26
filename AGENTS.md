@@ -15,14 +15,14 @@ content/                 # User-authored blog, docs, and embedded assets
 src/app/                 # Next.js App Router pages, routes, and OG image routes
 src/lib/source.ts        # Shared blog/docs source helpers
 source.config.ts         # Fumadocs collections and MDX processing
-scripts/                 # Obsidian/iCloud sync entrypoints
+scripts/                 # Local Obsidian/iCloud sync entrypoints
 .agents/knowledge/       # Evergreen repo-local agent knowledge
 ```
 
 ## Runtime
 - App routes start in `src/app/`.
 - Content loading and blog/docs collection wiring start in `source.config.ts` and `src/lib/source.ts`.
-- Obsidian and iCloud sync entrypoints are `scripts/sync.ts`, `scripts/sync-up.ts`, and `.github/workflows/sync.yml`.
+- Local Obsidian and iCloud sync entrypoints are `scripts/sync.ts` and `scripts/sync-up.ts`.
 
 ## Verification
 - Baseline type safety: `pnpm types:check`
